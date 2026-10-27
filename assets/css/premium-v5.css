@@ -1,0 +1,52 @@
+/* DigiDr v5 — simple, distinctive illustrations at the approved 75% scale.
+   The SVG contains its pastel background and measured artwork clearance. */
+.premium-v5 .v5-illustration-art.v5-illustration-art {
+  position:relative;display:block;aspect-ratio:1 / 1;height:auto;min-height:0;
+  max-height:none;padding:0;overflow:hidden;background:#dbe3ff;
+}
+.premium-v5 .v5-illustration-art.v5-illustration-art>img {
+  display:block;width:100%;height:100%;max-width:none;max-height:none;
+  aspect-ratio:1 / 1;object-fit:contain!important;object-position:center!important;
+  padding:0;filter:none;opacity:1;mix-blend-mode:normal;transform:none!important;
+  transition:none;
+}
+.premium-v5 .visual-card .visual.v5-illustration-art {
+  aspect-ratio:1 / 1;height:auto;border-radius:0;
+}
+.premium-v5 .page-hero-art.v5-illustration-art {
+  width:100%;max-width:480px;justify-self:end;align-self:center;
+  border:1px solid #3a3d47;border-radius:24px;
+}
+.premium-v5 .content-cover.v5-illustration-art,
+.premium-v5 .research-image.v5-illustration-art,
+.premium-v5 .trust-image.v5-illustration-art {
+  height:auto;aspect-ratio:1 / 1;
+}
+.premium-v5 .article .article-hero-art.v5-illustration-art {
+  display:block;width:100%;max-width:480px;height:auto;max-height:none;
+  aspect-ratio:1 / 1;margin:32px auto;padding:0;border:1px solid #d0d6dc;
+  border-radius:18px;
+}
+.premium-v5 .v3-card-art.v3-compact-art.v5-illustration-art {
+  width:min(160px,100%);height:auto;max-height:none;aspect-ratio:1 / 1;
+  margin:0 0 20px;border-radius:14px;
+}
+.premium-v5 .doctor-draft-art.v3-workspace-art.v5-illustration-art {
+  width:min(180px,100%);height:auto;max-height:none;aspect-ratio:1 / 1;
+  margin:0 auto 18px;border-radius:12px;
+}
+.premium-v5 .photo-credit-card.v5-illustration-credit>img {
+  display:block;width:100%;height:auto;aspect-ratio:1 / 1;
+  object-fit:contain;object-position:center;background:#dbe3ff;
+}
+@media(max-width:700px) {
+  .premium-v5 .page-hero-art.v5-illustration-art {
+    max-width:420px;justify-self:center;
+  }
+  .premium-v5 .article .article-hero-art.v5-illustration-art {
+    max-width:390px;margin:24px auto;
+  }
+  .premium-v5 .doctor-draft-art.v3-workspace-art.v5-illustration-art {
+    width:min(150px,100%);
+  }
+}

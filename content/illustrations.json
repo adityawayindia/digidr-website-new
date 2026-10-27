@@ -1,0 +1,1217 @@
+{
+  "version": "16.0.0",
+  "direction": "Approved flat, rounded navy illustrations on full-square pastel backgrounds",
+  "core_occupancy": 0.75,
+  "stroke_width": 1.35,
+  "stroke_color": "#191b3d",
+  "palette": {
+    "mint": "#bfe1c1",
+    "periwinkle": "#dbe3ff",
+    "cream": "#ffe9b4",
+    "sky": "#cce7f4",
+    "teal": "#cae7df",
+    "navy": "#191b3d",
+    "green": "#267a60",
+    "ivory": "#f8f7ff"
+  },
+  "provenance": {
+    "library": "Lucide",
+    "version": "1.8.0",
+    "license": "ISC",
+    "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+    "source_url": "https://lucide.dev",
+    "vendored_nodes": "assets/illustrations/lucide-icons.json",
+    "rebuild": "node tools/generate_illustrations.cjs",
+    "geometry": "Lucide icon nodes are unchanged; only approved colour accents, stroke styling, and fitted square view boxes are applied."
+  },
+  "assets": [
+    {
+      "slug": "contentassist",
+      "path": "assets/illustrations/contentassist.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A document and pen representing content creation and review",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#bfe1c1",
+      "icon": "FilePenLine",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/file-pen-line",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 3.3203125,
+        "y": 1.3203125,
+        "width": 19.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -1.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "464566577b98f28491479c7732bd8bfaacf930ce01ecaa6fc9373f9caf9695aa",
+      "bytes": 1380,
+      "sha256": "dab70a684d14ef00fbb8107b5d2b72f463f4278b78be4d15aec0aedf9b8da12a"
+    },
+    {
+      "slug": "patientassist",
+      "path": "assets/illustrations/patientassist.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "Two connected conversation bubbles representing patient communication",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cce7f4",
+      "icon": "MessagesSquare",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/messages-square",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "1": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 1.3203125,
+        "width": 21.359375,
+        "height": 21.3515625
+      },
+      "view_box": [
+        -2.23958333,
+        -2.24348958,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "dca9063a3144b5d4294e08a7f2a16cadc42e00f822b13c4f609d93a78f0eabc4",
+      "bytes": 1332,
+      "sha256": "89606969efd1bf063b52764ebbeb0b129347d62c8fd8dfced17b6d1480b544e8"
+    },
+    {
+      "slug": "doctorassist",
+      "path": "assets/illustrations/doctorassist.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A clinical clipboard with a plus sign representing physician assistance",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#bfe1c1",
+      "icon": "ClipboardPlus",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/clipboard-plus",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "2": {
+          "stroke": "#267a60"
+        },
+        "3": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 3.3203125,
+        "y": 1.3203125,
+        "width": 17.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "e437c6796404a987621602e3d517e1d60b1875dc765df4bd017e6b048fa5ed9a",
+      "bytes": 1292,
+      "sha256": "8daac4dc9421399081e31eef68e4aa8e027cd73757502289deaeb6f27743667f"
+    },
+    {
+      "slug": "contextengine",
+      "path": "assets/illustrations/contextengine.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "Three connected coloured nodes representing relevant patient context",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#dbe3ff",
+      "icon": "Network",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/network",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "0": {
+          "fill": "#bfe1c1"
+        },
+        "1": {
+          "fill": "#f8f7ff"
+        },
+        "2": {
+          "fill": "#a6b7ee"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 1.3203125,
+        "width": 21.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "685a6a30a4ac0247711b97a30f15d2daf660638bfe675778dc38aeda22512694",
+      "bytes": 1343,
+      "sha256": "8d77181c99c3a266b7020555d1c3be8f8245fb82a161ed6f62a08b1109af3d8d"
+    },
+    {
+      "slug": "evidenceengine",
+      "path": "assets/illustrations/evidenceengine.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "An open source book with a green verification check",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#ffe9b4",
+      "icon": "BookOpenCheck",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/book-open-check",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "1": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 2.3203125,
+        "width": 21.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "f9a7b7b4bcc670f68d959be6cd96f67496a2c12838a01426a8529479c9c1fa1a",
+      "bytes": 1276,
+      "sha256": "734a897475afdb0e73f7156b774e68122aebabe9760ce3e867e87dcc87d7273e"
+    },
+    {
+      "slug": "trustengine",
+      "path": "assets/illustrations/trustengine.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A shield with a green check representing reviewed and governed information",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cae7df",
+      "icon": "ShieldCheck",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/shield-check",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "1": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 3.3203125,
+        "y": 1.3203125,
+        "width": 17.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "b725ec948cd91e5592deba20c967fa61cd6ae93944bce5ab5923703f90915a88",
+      "bytes": 1282,
+      "sha256": "e8dad3f323e66bae6b127912ef150f264ad1418fbddbfe1d1263ccee1ef739a0"
+    },
+    {
+      "slug": "research-public-assistant",
+      "path": "assets/illustrations/research-public-assistant.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A conversation bubble with a question representing a public health assistant",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cce7f4",
+      "icon": "MessageCircleQuestionMark",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/message-circle-question-mark",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 1.3203125,
+        "width": 21.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "0b80a468278a247b96d71c9fe0bb7712189ac7bbcf4f59dcb29f07946a50d04e",
+      "bytes": 1362,
+      "sha256": "9c67748ffdd40631522a809c74fab562e463046ea50acdcb99dcbf81945b83b6"
+    },
+    {
+      "slug": "research-longitudinal",
+      "path": "assets/illustrations/research-longitudinal.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A clock with a returning arrow representing context over time",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#dbe3ff",
+      "icon": "History",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/history",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "2": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 2.3203125,
+        "y": 2.3203125,
+        "width": 19.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -0.90625,
+        -0.90625,
+        25.8125,
+        25.8125
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "9a0f40bd4a739e2e201759b902496965b9ddc9f05412559ad2949e1a73649822",
+      "bytes": 1197,
+      "sha256": "83ab832bdbb610869ac880a634e29a26b5f6e8b573653529efb6d188ad44518a"
+    },
+    {
+      "slug": "research-oversight",
+      "path": "assets/illustrations/research-oversight.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "An eye within a review frame representing clinical oversight",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#bfe1c1",
+      "icon": "ScanEye",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/scan-eye",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "4": {
+          "fill": "#267a60",
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 2.3203125,
+        "y": 2.3203125,
+        "width": 19.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -0.90625,
+        -0.90625,
+        25.8125,
+        25.8125
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "d90b96457351f4622e5ffe8d2d54f5908412057bb3945dbc09e0af097896284e",
+      "bytes": 1383,
+      "sha256": "741a0a40315097b1c487d65e4da14cbb575a8f5beeaa02ae0b210e73060ba6f9"
+    },
+    {
+      "slug": "research-evidence-gap",
+      "path": "assets/illustrations/research-evidence-gap.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A source document with a question mark representing gaps in supporting evidence",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#ffe9b4",
+      "icon": "FileQuestionMark",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/file-question-mark",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 3.3203125,
+        "y": 1.3203125,
+        "width": 17.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "310f3e5478542cde443498778e9791889b04e50d590563abb7f380c4184ccd67",
+      "bytes": 1322,
+      "sha256": "66cfe360e8efafb2f78c81bb203388fe7374fbf3e7876a527bd374ddce44eb06"
+    },
+    {
+      "slug": "research-model-safety",
+      "path": "assets/illustrations/research-model-safety.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A shield with a question mark representing evaluation of model safety",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#dbe3ff",
+      "icon": "ShieldQuestionMark",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/shield-question-mark",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 3.3203125,
+        "y": 1.3203125,
+        "width": 17.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "c14e37a21fcd0fab28342400de243ed00b0a4e796df501bc5811613630a95e18",
+      "bytes": 1366,
+      "sha256": "a45aa0e877d36ec45985a521dd9cf85c8a7a7c4714273d57d029a7d7fab1aeba"
+    },
+    {
+      "slug": "research-evaluation",
+      "path": "assets/illustrations/research-evaluation.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A checklist clipboard with a green check representing careful evaluation",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cae7df",
+      "icon": "ClipboardCheck",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/clipboard-check",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "2": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 3.3203125,
+        "y": 1.3203125,
+        "width": 17.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "1819057640ab5dd0bcc55c7b230db629852c001cb6749458d1211e5488e1ac9a",
+      "bytes": 1292,
+      "sha256": "b7670a482f8c6e206ca17fc2b02a8ad00f3583de773d0efa7ee5eb39af44879f"
+    },
+    {
+      "slug": "reflection-echo-chamber",
+      "path": "assets/illustrations/reflection-echo-chamber.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A repeating pair of arrows representing circular self reflection",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#dbe3ff",
+      "icon": "Repeat2",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/repeat2",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "2": {
+          "stroke": "#267a60"
+        },
+        "3": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 5.3203125,
+        "width": 21.359375,
+        "height": 13.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "e09e89487f7bf2b1d171470442c65bdacda37f6293675caf90a6b4b2dda781c1",
+      "bytes": 1278,
+      "sha256": "f207804976a436ba2f9cf7db2340a6394a5105fd67523df006a669e723ce8157"
+    },
+    {
+      "slug": "the-next-question",
+      "path": "assets/illustrations/the-next-question.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A conversation bubble with a reply arrow representing the next useful question",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cce7f4",
+      "icon": "MessageCircleReply",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/message-circle-reply",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "1": {
+          "stroke": "#267a60"
+        },
+        "2": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 1.3203125,
+        "width": 21.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "11219174991ebeea01f96e5dfe721c99b6440e3f7e4d6a0d60625e5f681a4471",
+      "bytes": 1342,
+      "sha256": "980beb15edcea119203be43126caa8678f7e0b07e33d410fe4d2a6aa06156abd"
+    },
+    {
+      "slug": "evidence-vs-attention",
+      "path": "assets/illustrations/evidence-vs-attention.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "Balanced scales representing the assessment of evidence and attention",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#ffe9b4",
+      "icon": "Scale",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/scale",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 2.3203125,
+        "width": 21.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "d9a11b7206b15ac68d049b376a13ff45ee3852ebcaacc6aba386daf188c2efb6",
+      "bytes": 1287,
+      "sha256": "71065ff35193d5791c7a61115a4e7d3c3a4ae87fc341d5e5e1c0fc728d3cb672"
+    },
+    {
+      "slug": "memory-wrong-to-use",
+      "path": "assets/illustrations/memory-wrong-to-use.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A lock with a keyhole representing limits on the use of remembered information",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cae7df",
+      "icon": "LockKeyhole",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/lock-keyhole",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "0": {
+          "fill": "#267a60",
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 2.3203125,
+        "y": 1.3203125,
+        "width": 19.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "12650733cf16aaca4f4e14320e66a7b795c120e381d65deffd0060beb1b87f38",
+      "bytes": 1264,
+      "sha256": "10fee6c1c213f020ce1c91ce70c911a11981e3839ddf5c6c607a5da8ee48ef16"
+    },
+    {
+      "slug": "doctor-is-not-a-badge",
+      "path": "assets/illustrations/doctor-is-not-a-badge.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A person with a green check representing active physician review",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#bfe1c1",
+      "icon": "UserCheck",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/user-check",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "0": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 2.3203125,
+        "width": 21.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "68845cd76add59b8639fb8acfcc5afa1d57fc54f2862c4fa2157b2dce697d569",
+      "bytes": 1234,
+      "sha256": "ab7b0f38924c6a9ea4ffb2b6163648cabc577fb41697bca80b72cdc1ed5429b7"
+    },
+    {
+      "slug": "from-post-to-patient",
+      "path": "assets/illustrations/from-post-to-patient.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A route joining two points representing the journey from education to care",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cce7f4",
+      "icon": "Route",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/route",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "2": {
+          "fill": "#bfe1c1"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 2.3203125,
+        "y": 1.3203125,
+        "width": 19.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "392205cab9f54c3c4c1a274a0f3dc8b12b82ddac16563f223ab252d8e8b9c181",
+      "bytes": 1249,
+      "sha256": "df2985832c0ab54e7dc96214a7addba78fbc176cf2b0d4450436ea6d232315b2"
+    },
+    {
+      "slug": "unknowns",
+      "path": "assets/illustrations/unknowns.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A clear question mark representing information that remains unknown",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#ffe9b4",
+      "icon": "CircleQuestionMark",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/circle-question-mark",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 1.3203125,
+        "width": 21.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "1f4c92b16abf8a678f1511225254eca5fa028157e1a3af0299a1c3022091fdad",
+      "bytes": 1158,
+      "sha256": "ffe6de95ceb1b14d5916d05ed5ed5a4b25fc6d98c5d670274be6159805a842f9"
+    },
+    {
+      "slug": "appointments",
+      "path": "assets/illustrations/appointments.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A calendar with a highlighted day representing appointment planning",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#bfe1c1",
+      "icon": "CalendarDays",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/calendar-days",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "4": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 2.3203125,
+        "y": 1.3203125,
+        "width": 19.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "7fee830191c3288637329062cd674129b78ea99e099b491cbb85cd7f3f2b1ea2",
+      "bytes": 1358,
+      "sha256": "ecbc31b976896a105e7052da06ddf6dc8e4f7a678ec3f4c6d70609dbe0524b8a"
+    },
+    {
+      "slug": "referrals",
+      "path": "assets/illustrations/referrals.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "Connected points and a directional handoff representing a patient referral",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cae7df",
+      "icon": "GitPullRequestArrow",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/git-pull-request-arrow",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "3": {
+          "stroke": "#267a60"
+        },
+        "4": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 2.3203125,
+        "width": 21.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "8d3862c8293ef0ef0af34b8145828e6129e41d557f8c5732824db015af421728",
+      "bytes": 1252,
+      "sha256": "106f2a42c29f31d0262bce88b05a20f44170d98732c0df8a1f9520cf6c98548b"
+    },
+    {
+      "slug": "analytics",
+      "path": "assets/illustrations/analytics.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "Bars and a rising line representing practice analytics",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#dbe3ff",
+      "icon": "ChartNoAxesCombined",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/chart-no-axes-combined",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {
+        "3": {
+          "stroke": "#267a60"
+        }
+      },
+      "native_ink_bounds": {
+        "x": 1.3203125,
+        "y": 2.3203125,
+        "width": 21.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "e84b70de83b916bcfaf52c55d3c114ba06db265702b1d48137ea97e4f7abb99d",
+      "bytes": 1262,
+      "sha256": "3a8bf89e22baea97a096d0b04eb5f820c83f9c2ce34a58d4a7f8931d1c0f416a"
+    },
+    {
+      "slug": "professional-presence",
+      "path": "assets/illustrations/professional-presence.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A professional profile card representing a physician’s digital identity",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#bfe1c1",
+      "icon": "ContactRound",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/contact-round",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 2.3203125,
+        "y": 1.3203125,
+        "width": 19.359375,
+        "height": 21.359375
+      },
+      "view_box": [
+        -2.23958333,
+        -2.23958333,
+        28.47916667,
+        28.47916667
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "4aa936eba81765962cc2aed7639fa3f90b7258713ba26c9bb31cdafd5c227a02",
+      "bytes": 1285,
+      "sha256": "041e65b78351f061affedb18c1e9efaeb951da6b099a5497d239d83862b3058b"
+    },
+    {
+      "slug": "microsite",
+      "path": "assets/illustrations/microsite.svg",
+      "width": 1254,
+      "height": 1254,
+      "alt": "A structured website window representing a doctor’s microsite",
+      "source_type": "Vector illustration",
+      "creator": "DigiDr illustration styling using Lucide",
+      "illustrative": true,
+      "fit": "contain",
+      "object_position": "50% 50%",
+      "style": "flat-vector-illustration",
+      "background": "#cce7f4",
+      "icon": "PanelsTopLeft",
+      "icon_version": "1.8.0",
+      "license": "ISC",
+      "license_file": "assets/illustrations/LUCIDE-LICENSE.txt",
+      "source_url": "https://lucide.dev/icons/panels-top-left",
+      "core_occupancy": 0.75,
+      "stroke_width": 1.35,
+      "stroke_color": "#191b3d",
+      "node_overrides": {},
+      "native_ink_bounds": {
+        "x": 2.3203125,
+        "y": 2.3203125,
+        "width": 19.359375,
+        "height": 19.359375
+      },
+      "view_box": [
+        -0.90625,
+        -0.90625,
+        25.8125,
+        25.8125
+      ],
+      "bounds_measurement": {
+        "method": "Non-zero alpha bounds of transparent Sharp SVG render; rounded line caps and joins, 1.35 native-unit stroke included",
+        "pixels_per_native_unit": 128,
+        "pixel_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source_node_sha256": "9969609d90a1e2282f4d7d18da13dc74fe1aab3b72fa9fd9a702e4072d512acb",
+      "bytes": 1111,
+      "sha256": "ea132bc644d6d4c9f7837b1acba8f3c8fd09ffa25fd41eb2ca5bed42dbb815e2"
+    }
+  ]
+}

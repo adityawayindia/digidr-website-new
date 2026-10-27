@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lucide 1.8.0; Copyright (c) 2026 Lucide Icons and Contributors.
+     ISC license; complete license and applicable Feather MIT notices are
+     distributed in LUCIDE-LICENSE.txt beside this illustration. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="-0.90625 -0.90625 25.8125 25.8125" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="research-oversight-title research-oversight-description">
+  <title id="research-oversight-title">An eye within a review frame representing clinical oversight</title>
+  <desc id="research-oversight-description">DigiDr flat vector illustration, using the Lucide ScanEye icon. The navy artwork is centred at 75 percent of the square, including its rounded stroke.</desc>
+  <rect x="-0.90625" y="-0.90625" width="25.8125" height="25.8125" fill="#bfe1c1" aria-hidden="true"/>
+  <g id="research-oversight-artwork" fill="none" stroke="#191b3d" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 7V5a2 2 0 0 1 2-2h2"/>
+    <path d="M17 3h2a2 2 0 0 1 2 2v2"/>
+    <path d="M21 17v2a2 2 0 0 1-2 2h-2"/>
+    <path d="M7 21H5a2 2 0 0 1-2-2v-2"/>
+    <circle cx="12" cy="12" r="1" fill="#267a60" stroke="#267a60"/>
+    <path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0"/>
+  </g>
+</svg>

@@ -1,0 +1,225 @@
+/* DigiDr v7 — bounded refinements to the four approved v6 card patterns.
+   Specialty presentation lives in premium-v7.css. */
+
+/* Editorial footers share a baseline even when the titles vary in length. */
+body.premium-v7.premium-v6.premium-v5 .v6-editorial .research-origin {
+  margin-top:auto;
+}
+body.premium-v7.premium-v6.premium-v5 .v6-editorial .content-card-body:has(>.research-origin)>p,
+body.premium-v7.premium-v6.premium-v5 .v6-editorial .research-body:has(>.research-origin)>p {
+  margin-bottom:22px;
+}
+
+/* Named platform products have a quiet, accessible route to their detail page. */
+body.premium-v7.premium-v6.premium-v5 .detail-card:has(>.v7-product-link),
+body.premium-v7.premium-v6.premium-v5 .card-body:has(>.v7-product-link) {
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+body.premium-v7.premium-v6.premium-v5 .detail-card:has(>.v7-product-link)>p,
+body.premium-v7.premium-v6.premium-v5 .card-body:has(>.v7-product-link)>p {
+  margin-bottom:12px;
+}
+body.premium-v7.premium-v6.premium-v5 .v7-product-link {
+  display:inline-flex;
+  align-items:center;
+  align-self:flex-start;
+  gap:8px;
+  min-height:44px;
+  margin-top:auto;
+  padding:10px 0;
+  color:var(--yellow,#ffe524);
+  font-size:13px;
+  font-weight:650;
+  line-height:1.5;
+  text-decoration:none;
+  text-underline-offset:4px;
+  border-radius:3px;
+}
+body.premium-v7.premium-v6.premium-v5 .v7-product-link:hover {
+  text-decoration:underline;
+}
+body.premium-v7.premium-v6.premium-v5 .v7-product-link:focus-visible {
+  outline:2px solid var(--yellow,#ffe524);
+  outline-offset:4px;
+}
+
+/* Three experience products share a row; their architecture is a supporting note. */
+body.premium-v7.premium-v6.premium-v5 .v7-experience-products {
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:20px;
+}
+body.premium-v7.premium-v6.premium-v5 .v7-experience-products>.v7-platform-note,
+body.premium-v7.premium-v6.premium-v5 .v7-experience-products>.v7-platform-note:hover {
+  grid-column:1/-1;
+  display:grid;
+  grid-template-columns:24px minmax(0,1fr);
+  gap:5px 16px;
+  align-content:start;
+  min-height:0;
+  padding:22px 0 0;
+  margin-top:4px;
+  border:0;
+  border-top:1px solid #363e48;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  transform:none;
+  transition:none;
+}
+body.premium-v7.premium-v6.premium-v5 .v7-platform-note>.v6-outline-art {
+  grid-column:1;
+  grid-row:1/3;
+  width:24px;
+  height:24px;
+  margin:2px 0 0;
+}
+body.premium-v7.premium-v6.premium-v5 .v7-platform-note>h3 {
+  grid-column:2;
+  margin:0;
+  font-size:16px;
+  line-height:1.4;
+  letter-spacing:-.02em;
+}
+body.premium-v7.premium-v6.premium-v5 .v7-platform-note>p {
+  grid-column:2;
+  margin:0;
+  max-width:none;
+  font-size:14px;
+  line-height:1.65;
+}
+@media(max-width:1000px) {
+  body.premium-v7.premium-v6.premium-v5 .v7-experience-products {
+    grid-template-columns:minmax(0,1fr);
+    gap:16px;
+  }
+}
+
+/* Commercial and navigation metadata must remain comfortably legible. */
+body.premium-v7.premium-v6.premium-v5 .doctor-billing-toggle button span,
+body.premium-v7.premium-v6.premium-v5 .doctor-plan-label,
+body.premium-v7.premium-v6.premium-v5 .doctor-plan-standard,
+body.premium-v7.premium-v6.premium-v5 .doctor-pricing-source,
+body.premium-v7.premium-v6.premium-v5 .doctor-commercial-links,
+body.premium-v7.premium-v6.premium-v5 .footer-grid h4 {
+  font-size:11px;
+}
+body.premium-v7.premium-v6.premium-v5 .doctor-price span {
+  font-size:12px;
+}
+body.premium-v7.premium-v6.premium-v5 .doctor-plan-top {
+  flex-wrap:wrap;
+  row-gap:9px;
+}
+body.premium-v7.premium-v6.premium-v5 .doctor-referral-flow strong {
+  font-size:12px;
+}
+body.premium-v7.premium-v6.premium-v5 .doctor-referral-flow small {
+  font-size:11px;
+}
+
+/* CTA grid children may shrink below a long specialty name's intrinsic width.
+   This prevents names such as Ophthalmology/Gastroenterology widening a phone. */
+body.premium-v7 .cta-panel>div {
+  min-width:0;
+}
+body.premium-v7 .cta-panel h2 {
+  overflow-wrap:anywhere;
+}
+body.premium-v7 .cta-actions,
+body.premium-v7 .cta-actions .button {
+  min-width:0;
+  max-width:100%;
+}
+@media(max-width:760px) {
+  body.premium-v7 .cta-panel {
+    grid-template-columns:minmax(0,1fr);
+  }
+}
+
+@media(max-width:480px) {
+  body.premium-v7 .cta-panel {
+    padding:24px;
+  }
+  body.premium-v7 .cta-panel h2 {
+    font-size:clamp(30px,8vw,36px);
+    line-height:1.08;
+    letter-spacing:-.045em;
+  }
+  body.premium-v7 .cta-panel p {
+    font-size:16px;
+    line-height:1.6;
+  }
+  body.premium-v7 .cta-actions .button {
+    width:100%;
+    white-space:normal;
+    text-align:center;
+    font-size:14px;
+    line-height:1.5;
+  }
+
+  /* Each command-centre category gets the full readable width on phones. */
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list {
+    grid-template-columns:1fr;
+  }
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list>li,
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list>li:nth-child(even) {
+    display:grid;
+    grid-template-columns:22px minmax(0,1fr) 16px;
+    gap:12px;
+    padding:19px 0;
+    border-left:0;
+    border-bottom:1px solid #363e48;
+  }
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list>li:last-child {
+    border-bottom:0;
+  }
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list>li>.v6-outline-art {
+    grid-column:1;
+    grid-row:1;
+    margin:2px 0 0;
+  }
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list>li>div:not(.v6-outline-art) {
+    grid-column:2;
+    grid-row:1;
+    min-width:0;
+  }
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list>li>span {
+    position:static;
+    grid-column:3;
+    grid-row:1;
+    margin:2px 0 0;
+  }
+  body.premium-v7.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list p {
+    font-size:13px;
+    line-height:1.65;
+  }
+
+  /* The small referral sequence is a readable vertical flow on narrow phones. */
+  body.premium-v7.premium-v6.premium-v5 .v6-command .doctor-referral-flow {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:10px;
+    padding-bottom:8px;
+  }
+  body.premium-v7.premium-v6.premium-v5 .doctor-referral-flow>div {
+    display:grid;
+    grid-template-columns:29px minmax(0,1fr);
+    column-gap:14px;
+    align-items:center;
+  }
+  body.premium-v7.premium-v6.premium-v5 .doctor-referral-flow>div>span {
+    grid-row:1/3;
+    margin:0;
+  }
+  body.premium-v7.premium-v6.premium-v5 .doctor-referral-flow>div>strong,
+  body.premium-v7.premium-v6.premium-v5 .doctor-referral-flow>div>small {
+    grid-column:2;
+  }
+  body.premium-v7.premium-v6.premium-v5 .doctor-referral-flow>i {
+    justify-self:start;
+    margin-left:9px;
+    transform:rotate(90deg);
+  }
+}

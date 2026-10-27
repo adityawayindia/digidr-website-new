@@ -1,0 +1,58 @@
+/* Decorative motion stays behind the content and inside the milestone section. */
+[data-celebration] {
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+}
+[data-celebration] > [data-celebration-canvas] {
+  position:absolute;
+  inset:0;
+  z-index:0;
+  width:100%;
+  height:100%;
+  display:block;
+  pointer-events:none;
+  user-select:none;
+}
+[data-celebration] > :not([data-celebration-canvas]) {
+  position:relative;
+  z-index:1;
+}
+[data-celebration-toggle] {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:44px;
+  padding:9px 13px;
+  border:1px solid #ffe52440;
+  border-radius:7px;
+  color:#ffe524;
+  background:#0b0c0fe8;
+  font:inherit;
+  font-size:12px;
+  font-weight:600;
+  line-height:1.4;
+  cursor:pointer;
+  touch-action:manipulation;
+}
+[data-celebration-toggle]:hover:not(:disabled) {
+  border-color:#ffe52490;
+  background:#202015;
+}
+[data-celebration-toggle]:focus-visible {
+  outline:2px solid #ffe524;
+  outline-offset:3px;
+}
+[data-celebration-toggle]:disabled {
+  color:#babdc5;
+  border-color:#ffffff24;
+  background:transparent;
+  cursor:default;
+}
+@media(max-width:540px) {
+  [data-celebration-toggle] {font-size:11px;padding-inline:10px;}
+}
+@media(prefers-reduced-motion:reduce) {
+  [data-celebration] > [data-celebration-canvas] {visibility:hidden;}
+}

@@ -1,0 +1,22 @@
+DigiDr Website: Version 16.0.0
+
+START HERE
+
+1. Extract the entire ZIP into a folder. Do not open index.html from inside
+   the ZIP preview, and do not separate it from the assets folder.
+2. Open index.html in Chrome, Safari, Edge or Firefox for a quick local review.
+3. To publish, upload the contents of this folder to your static website host.
+   Keep all subfolders and relative paths intact.
+
+This package contains the website and local visual assets. External app,
+registration, email and reference links require an internet connection.
+The static website does not create real appointments or process payments.
+
+The main homepage includes the three Doctor stories after DoctorAssist and
+before Research. Open index.html#doctor-stories to jump to the carousel.
+The supplied outline avatars and carousel controls are included.
+
+For editable source, build tools and review reports, use the separate
+DigiDrWebsiteV16Source.zip package. Its hosting files are in dist/.
+
+RELEASE-MANIFEST.json records the byte count and SHA256 of every included file.

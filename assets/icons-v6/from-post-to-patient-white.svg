@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lucide 1.8.0; ISC and applicable Feather MIT notices: LUCIDE-LICENSE.txt. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eef0f4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="from-post-to-patient-white-title">
+  <title id="from-post-to-patient-white-title">A route joining two points representing the journey from education to care</title>
+  <circle cx="6" cy="19" r="3"/>
+  <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/>
+  <circle cx="18" cy="5" r="3"/>
+</svg>

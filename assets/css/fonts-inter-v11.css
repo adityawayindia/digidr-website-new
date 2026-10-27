@@ -1,0 +1,18 @@
+/* Official Inter variable font, served locally. Licence and provenance are in assets/fonts/. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/inter-variable.woff2') format('woff2');
+}
+
+/* The same font contains the text and display optical designs through its opsz axis.
+   Apply font-optical-sizing: auto, or set opsz to 32 on large display headings. */
+@font-face {
+  font-family: 'Inter Display';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/inter-variable.woff2') format('woff2');
+}

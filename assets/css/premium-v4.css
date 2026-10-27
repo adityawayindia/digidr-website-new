@@ -1,0 +1,78 @@
+/* Bright editorial imagery within the established charcoal/yellow interface. */
+.premium-v4 .v4-photo-art{background:#eaf0ed!important;overflow:hidden}
+.premium-v4 .v4-photo-art>img{display:block;width:100%;height:100%;object-fit:cover}
+.premium-v4 .visual-card .visual.v4-photo-art{height:auto;aspect-ratio:1.35}
+.premium-v4 .v3-card-art.v4-photo-art{aspect-ratio:1.45}
+.premium-v4 .detail-card>.v3-card-art.v4-photo-art,
+.premium-v4 .tech-card>.v3-card-art.v4-photo-art{aspect-ratio:1.5}
+.premium-v4 .doctor-feature>.v3-card-art.v4-photo-art{aspect-ratio:1.3}
+.premium-v4 .principle>.v3-card-art.v4-photo-art{aspect-ratio:1.45}
+.premium-v4 .doctor-editorial-panel>.v3-card-art.v4-photo-art{aspect-ratio:1.5}
+.premium-v4 .arch-node>.v3-card-art.v4-photo-art{aspect-ratio:1.45}
+.premium-v4 .v3-card-art.v3-compact-art.v4-photo-art{height:180px;max-height:none;aspect-ratio:auto}
+.premium-v4 .content-cover.v4-photo-art,
+.premium-v4 .research-image.v4-photo-art,
+.premium-v4 .trust-image.v4-photo-art{height:auto;aspect-ratio:1.45}
+.premium-v4 .content-cover.v4-photo-art img,
+.premium-v4 .research-image.v4-photo-art img,
+.premium-v4 .trust-image.v4-photo-art img{width:100%;height:100%;max-height:none;object-fit:cover}
+.premium-v4 .page-hero-art.v4-photo-art{padding:0;aspect-ratio:1.15;border-color:#4c5660}
+.premium-v4 .page-hero-art.v4-photo-art>img{aspect-ratio:auto;max-height:none}
+.premium-v4 .v3-workspace-art.v4-photo-art img{width:100%;height:100%;object-fit:cover}
+.premium-v4 .photo-credit-card.v4-photo-art{background:#14161b!important}
+.premium-v4 .photo-credit-card.v4-photo-art>img{height:auto;aspect-ratio:1;object-fit:cover}
+
+/* Article photographs receive an actual image frame, without the old black mat. */
+.premium-v4 .article .article-hero-art.v4-photo-art{
+  display:block;padding:0;width:100%;height:auto;max-height:none;aspect-ratio:1.5;
+  margin:30px 0;border:1px solid #d5ddd9;border-radius:18px;background:#eaf0ed;
+}
+.premium-v4 .article .article-hero-art.v4-photo-art img{
+  display:block;width:100%;height:100%;max-height:none;aspect-ratio:auto;object-fit:cover;border-radius:0;
+}
+
+/* Genuine DigiDr product previews keep their original interface and framing. */
+.premium-v4 .product-preview-section{padding-top:24px}
+.premium-v4 .product-preview-stage{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;
+  padding:38px 32px 30px;background:#edf2f0;border:1px solid #d8e1dd;border-radius:24px;
+}
+.premium-v4 .product-preview-card{min-width:0;margin:0;color:#161b21}
+.premium-v4 .product-preview-media{height:420px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden}
+.premium-v4 .product-preview-media>img{display:block;width:100%;height:100%;object-fit:contain;object-position:center bottom}
+.premium-v4 .product-preview-card figcaption{padding:24px 0 0;margin-top:24px;border-top:1px solid #ccd7d1}
+.premium-v4 .product-preview-card h3{font-size:20px;line-height:1.25;letter-spacing:-.035em;margin:0 0 10px;font-weight:600}
+.premium-v4 .product-preview-card p{color:#4c5a59;font-size:14px;line-height:1.7;margin:0;max-width:280px}
+.premium-v4 .product-preview-source{font-size:12px;line-height:1.7;color:#aebbc8;margin:18px 0 0}
+.premium-v4 .product-preview-source a{color:#dce4eb;text-underline-offset:3px}
+.premium-v4 .product-preview-source a:focus-visible{outline:2px solid #ffe524;outline-offset:5px}
+.premium-v4 .official-credits{padding-top:0}
+.premium-v4 .official-credits h2{font-size:clamp(32px,4vw,48px);letter-spacing:-.045em;line-height:1.12;margin:15px 0 20px}
+.premium-v4 .official-credits-lead{color:#bdc8d4;font-size:16px;line-height:1.8;max-width:780px;margin:0 0 32px}
+.premium-v4 .official-credit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.premium-v4 .official-credit-card{border:1px solid #3a4551;border-radius:18px;overflow:hidden;background:#14161b}
+.premium-v4 .official-credit-media{height:320px;padding:24px 24px 0;background:#edf2f0}
+.premium-v4 .official-credit-media img{display:block;width:100%;height:100%;object-fit:contain;object-position:center bottom}
+.premium-v4 .official-credit-card>div:last-child{padding:22px}
+.premium-v4 .official-credit-card h3{font-size:18px;line-height:1.35;margin:0 0 12px;letter-spacing:-.025em}
+.premium-v4 .official-credit-card a{font-size:12px;line-height:1.65;color:#ffe524;text-underline-offset:3px}
+@media(max-width:1000px){
+  .premium-v4 .product-preview-stage{gap:24px;padding:28px 24px 26px}
+  .premium-v4 .product-preview-media{height:320px}
+  .premium-v4 .product-preview-card h3{font-size:18px}
+  .premium-v4 .official-credit-media{height:270px;padding:20px 16px 0}
+}
+@media(max-width:700px){
+  .premium-v4 .visual-card .visual.v4-photo-art{aspect-ratio:1.28}
+  .premium-v4 .detail-card>.v3-card-art.v4-photo-art,
+  .premium-v4 .tech-card>.v3-card-art.v4-photo-art,
+  .premium-v4 .doctor-editorial-panel>.v3-card-art.v4-photo-art{aspect-ratio:1.35}
+  .premium-v4 .article .article-hero-art.v4-photo-art{aspect-ratio:1.33;margin:24px 0}
+  .premium-v4 .product-preview-stage{grid-template-columns:1fr;gap:36px;padding:28px 24px;border-radius:20px}
+  .premium-v4 .product-preview-card{width:100%;max-width:350px;margin-inline:auto}
+  .premium-v4 .product-preview-media{height:320px}
+  .premium-v4 .product-preview-card figcaption{padding-top:20px;margin-top:20px}
+  .premium-v4 .product-preview-card p{max-width:none}
+  .premium-v4 .official-credit-grid{grid-template-columns:1fr;max-width:450px;margin-inline:auto}
+  .premium-v4 .official-credit-media{height:320px}
+}

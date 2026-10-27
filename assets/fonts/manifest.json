@@ -1,0 +1,26 @@
+[
+  {
+    "family": "Geist",
+    "path": "assets/fonts/geist-latin-variable.woff2",
+    "weight_range": "100 900",
+    "source_url": "https://fonts.gstatic.com/s/geist/v5/gyByhwUxId8gMEwcGFU.woff2",
+    "css_source": "https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap",
+    "license": "SIL Open Font License 1.1",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/geist/OFL.txt",
+    "license_file": "assets/fonts/geist-OFL.txt",
+    "bytes": 29400,
+    "sha256": "19f9c92546aa300c312235e3125af1b81394d8db9a4bc4a425cd5b641d2d54e1"
+  },
+  {
+    "family": "Geist Mono",
+    "path": "assets/fonts/geist-mono-latin-variable.woff2",
+    "weight_range": "100 900",
+    "source_url": "https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2",
+    "css_source": "https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap",
+    "license": "SIL Open Font License 1.1",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/geistmono/OFL.txt",
+    "license_file": "assets/fonts/geist-mono-OFL.txt",
+    "bytes": 23128,
+    "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc"
+  }
+]

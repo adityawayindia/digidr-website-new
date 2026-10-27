@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lucide 1.8.0; ISC and applicable Feather MIT notices: LUCIDE-LICENSE.txt. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eef0f4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="reflection-echo-chamber-white-title">
+  <title id="reflection-echo-chamber-white-title">A repeating pair of arrows representing circular self reflection</title>
+  <path d="m2 9 3-3 3 3"/>
+  <path d="M13 18H7a2 2 0 0 1-2-2V6"/>
+  <path d="m22 15-3 3-3-3"/>
+  <path d="M11 6h6a2 2 0 0 1 2 2v10"/>
+</svg>

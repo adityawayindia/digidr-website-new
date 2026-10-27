@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "digidr-app-preview",
+    "path": "assets/product/digidr-app-preview.webp",
+    "source_url": "https://digidr.app/img/Small%20Phone%20Left.png",
+    "source_page": "https://digidr.app/",
+    "source_type": "Official DigiDr product screenshot",
+    "alt": "DigiDr app welcome screen",
+    "width": 385,
+    "height": 597,
+    "bytes": 117788,
+    "sha256": "9430528a303c1da765bfa93d47f274717cb49874b5aff523820a8265157100c9",
+    "retrieved_date": "2026-10-24",
+    "treatment": "Original screenshot; format converted to lossless WebP with transparency preserved"
+  },
+  {
+    "slug": "digidr-app-home",
+    "path": "assets/product/digidr-app-home.webp",
+    "source_url": "https://digidr.app/img/Big%20Phone%20Center.png",
+    "source_page": "https://digidr.app/",
+    "source_type": "Official DigiDr product screenshot",
+    "alt": "DigiDr app home screen",
+    "width": 838,
+    "height": 1042,
+    "bytes": 83758,
+    "sha256": "9b673892f7a2f73be235425ae972ce7b604e04a6abac0d44509c92fd56d2b4de",
+    "retrieved_date": "2026-10-24",
+    "treatment": "Original screenshot; format converted to lossless WebP with transparency preserved"
+  },
+  {
+    "slug": "digidr-app-analytics",
+    "path": "assets/product/digidr-app-analytics.webp",
+    "source_url": "https://digidr.app/img/Small%20Phone%20Right.png",
+    "source_page": "https://digidr.app/",
+    "source_type": "Official DigiDr product screenshot",
+    "alt": "DigiDr app engagement analytics screen",
+    "width": 385,
+    "height": 603,
+    "bytes": 70730,
+    "sha256": "5a7445871cf1f0652198bc24e65dfd8612fcb1e9583b19e94bfe7387c5ebd4d4",
+    "retrieved_date": "2026-10-24",
+    "treatment": "Original screenshot; format converted to lossless WebP with transparency preserved"
+  }
+]

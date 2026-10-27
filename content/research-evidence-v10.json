@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "reviewed_date": "2026-10-24",
+  "evidence": [
+    {
+      "id": "pew-trust",
+      "metric": "54%",
+      "title": "Uncertainty when health advice conflicts",
+      "summary": "US adults reported at least some difficulty deciding which information to trust when they encountered conflicting health advice.",
+      "scope": "US adults · national survey",
+      "published_date": "2026-04-07",
+      "fieldwork": "20 to 26 October 2025",
+      "sample": "5,111 US adults in Pew Research Center’s American Trends Panel; weighted to represent the US adult population.",
+      "source_name": "Pew Research Center",
+      "source_title": "Where Do Americans Get Health Information, and What Do They Trust?",
+      "url": "https://www.pewresearch.org/science/2026/04/07/where-do-americans-get-health-information-and-what-do-they-trust/",
+      "limitations": [
+        "This measures reported difficulty, including ‘somewhat difficult’; it is not a test of whether respondents correctly identified misinformation.",
+        "The finding describes US adults and is not an estimate for India. Publication in 2026 follows survey fieldwork in 2025."
+      ],
+      "home": true
+    },
+    {
+      "id": "video-evidence",
+      "metric": "62.5%",
+      "title": "Medical claims with very low or no supporting evidence",
+      "summary": "Researchers assigned their lowest evidence grade to 193 of 309 assessed claims in a selected sample of health professional videos about cancer and diabetes.",
+      "scope": "Selected YouTube videos · cancer and diabetes",
+      "published_date": "2026-01-16",
+      "fieldwork": "Video search and data capture: 20 to 21 June 2025",
+      "sample": "309 eligible videos, each with at least 10,000 views and a specific health claim; searches used Korean terms, with Korean  and English language videos eligible.",
+      "source_name": "JAMA Network Open",
+      "source_title": "The Quality of Evidence of and Engagement With Video Medical Claims",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844038",
+      "limitations": [
+        "This selected sample does not represent all online medical content, all specialties or all countries.",
+        "A low evidence grade does not by itself establish that a claim is false or that it caused patient harm."
+      ],
+      "home": true
+    },
+    {
+      "id": "physician-intervention",
+      "metric": "97%",
+      "title": "Doctors stepping in after online misinformation",
+      "summary": "Surveyed Canadian physicians reported having to step in after patients acted on inaccurate online health advice, either to avert harm or manage its effects. The question included AI advice.",
+      "scope": "Canadian physicians · Physician Pulse survey",
+      "published_date": "2026-04-21",
+      "fieldwork": "6 to 13 April 2026",
+      "sample": "645 practising physicians in Canada, recruited through Canadian Medical Association outreach; results were weighted by region of practice.",
+      "source_name": "CMA / Abacus Data",
+      "source_title": "Disconnected health systems and misinformation are putting patient care at risk, say Canadian physicians",
+      "url": "https://abacusdata.ca/disconnected-health-systems-and-misinformation-are-putting-patient-care-at-risk-say-canadian-physicians/",
+      "limitations": [
+        "This is physicians’ reported experience, not an audited count of injuries or an estimate of how many patients were harmed.",
+        "This reports experience of intervention, not the share of appointments or patients affected. The sample is Canadian."
+      ],
+      "home": true
+    },
+    {
+      "id": "ai-confidence",
+      "metric": "44%",
+      "title": "Limited confidence in judging AI health information",
+      "summary": "US adults said they were not confident they could distinguish true from false health information supplied by AI tools or chatbots.",
+      "scope": "US adults · national survey",
+      "published_date": "2026-06-17",
+      "fieldwork": "7 to 31 May 2026",
+      "sample": "2,480 US adults surveyed online and by telephone in English and Spanish; overall sampling margin of error ±3 percentage points.",
+      "source_name": "KFF",
+      "source_title": "KFF Tracking Poll on Health Information and Trust: Use of Social Media and AI For Health Information and Advice",
+      "url": "https://www.kff.org/public-opinion/kff-tracking-poll-on-health-information-and-trust-use-of-social-media-and-ai-for-health-information-and-advice/",
+      "limitations": [
+        "The percentage combines ‘not too’ and ‘not at all’ confident. It measures confidence, not demonstrated accuracy or actual exposure to harmful advice.",
+        "This US survey does not establish a prevalence rate for India."
+      ],
+      "home": false
+    },
+    {
+      "id": "ai-adoption",
+      "metric": "34%",
+      "title": "AI is already part of health information seeking",
+      "summary": "US adults reported having used chatbots for at least one of eight health purposes, such as understanding symptoms, treatments, diagnoses or lab results.",
+      "scope": "US adults · national survey",
+      "published_date": "2026-08-25",
+      "fieldwork": "22 to 28 June 2026",
+      "sample": "3,488 US adults surveyed by Pew Research Center; the measure covers ever using AI for at least one of eight listed health or medical reasons.",
+      "source_name": "Pew Research Center",
+      "source_title": "From Diagnoses to Treatments, Why Americans Use AI Chatbots for Health",
+      "url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
+      "limitations": [
+        "This is an ‘ever used’ measure, not monthly or daily usage. It should not be compared directly with surveys using a different time window.",
+        "Adoption and perceived helpfulness do not establish medical accuracy, patient harm or benefit. The population is US adults."
+      ],
+      "home": false
+    },
+    {
+      "id": "india-students",
+      "metric": "48.4%",
+      "title": "Uncertainty about health information in Indian schools",
+      "summary": "In a five city school study, 1,129 of 2,331 students were unsure whether health information shared on social media was accurate and reliable.",
+      "scope": "India · students in 75 selected schools",
+      "published_date": "2026-10-03",
+      "fieldwork": "4 May to 30 July 2023",
+      "sample": "2,331 students in grades 9 to 12 across 75 schools in Ahmedabad, Lucknow, Guwahati, Bhubaneswar and Visakhapatnam. Table 5 reports 1,129 unsure responses.",
+      "source_name": "Cureus · Project Info Suraksha",
+      "source_title": "Social Media Literacy and Health Information Seeking Behavior Among School Students and Educators in India: A Needs Assessment Under Project Info Suraksha",
+      "url": "https://assets.cureus.com/uploads/original_article/pdf/459944/20261003-1666859-zq7hkz.pdf",
+      "limitations": [
+        "The article was published in October 2026, but the data were collected in 2023.",
+        "Selected schools in five cities do not constitute a nationally representative sample of Indian adults or patients. The finding measures students’ perceptions."
+      ],
+      "home": false
+    },
+    {
+      "id": "human-ai-trial",
+      "metric": "No improvement",
+      "title": "Choosing the next step requires more than model knowledge",
+      "summary": "In a randomized UK study, participants using three LLMs did no better than the control group at selecting the appropriate next action in simulated medical scenarios.",
+      "scope": "UK adults · randomized scenario study",
+      "published_date": "2026-02-09",
+      "fieldwork": "21 August to 14 October 2024",
+      "sample": "1,298 adults contributed 2,400 interactions across ten scenarios. The study compared GPT 4o, Llama 3 and Command R+ with participants’ usual resources.",
+      "source_name": "Nature Medicine",
+      "source_title": "Reliability of LLMs as medical assistants for the general public: a randomized preregistered study",
+      "url": "https://www.nature.com/articles/s41591-025-04074-y",
+      "limitations": [
+        "The next step comparison found no statistically significant difference; identifying relevant conditions was a separate outcome.",
+        "The study used 2024 models and simulated scenarios. It did not assess current models, real patient outcomes or DigiDr."
+      ],
+      "home": false
+    }
+  ],
+  "further_reading": [
+    {
+      "title": "What changes when health AI has to remain useful over time?",
+      "source_name": "Nature Health",
+      "url": "https://www.nature.com/articles/s44360-026-00141-x"
+    },
+    {
+      "title": "A human in the loop is not automatically meaningful oversight",
+      "source_name": "npj Digital Medicine",
+      "url": "https://www.nature.com/articles/s41746-026-02971-1"
+    },
+    {
+      "title": "Medical models can look healthy while targeted knowledge becomes unsafe",
+      "source_name": "Nature Medicine",
+      "url": "https://www.nature.com/articles/s41591-024-03445-1"
+    },
+    {
+      "title": "Health AI needs realistic, expert reviewed evaluation",
+      "source_name": "OpenAI · HealthBench",
+      "url": "https://openai.com/index/healthbench/"
+    }
+  ]
+}

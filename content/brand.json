@@ -1,0 +1,42 @@
+{
+  "version": "16.0.0",
+  "verified_date": "2026-10-24",
+  "live_markup_sources": [
+    "https://digidr.app/js/navbar.js",
+    "https://digidr.app/js/footer.js",
+    "https://digidr.app/"
+  ],
+  "usage": "Official DigiDr assets used under the owner’s request. Original source bytes are preserved. Version 9 displays the logo in white/yellow on black through a CSS/SVG colour filter, with a fine yellow frame around the emblem only.",
+  "logo": {
+    "source_url": "https://digidr.app/img/logo.png",
+    "bytes": 32211,
+    "sha256": "5e492fb6dd1f3163782df30eb4e7cacf802dac2774b6598795aa03cd8c0dfdd0",
+    "format": "PNG",
+    "width": 500,
+    "height": 136,
+    "modified": false,
+    "file": "assets/brand/digidr-logo.png"
+  },
+  "favicon": {
+    "source_url": "https://digidr.app/favicon/favicon.ico",
+    "bytes": 15406,
+    "sha256": "3320f1e30d79e40053aab8a00e7a3ea964513ce91b4ea33d639f31278c52ffda",
+    "format": "ICO",
+    "width": 48,
+    "height": 48,
+    "modified": false,
+    "file": "assets/brand/favicon.ico"
+  },
+  "display_treatment": {
+    "name": "Framed emblem",
+    "selected_by_owner": true,
+    "original_bitmap_unchanged": true,
+    "palette": [
+      "#08090b",
+      "#ffe524",
+      "#ffffff"
+    ],
+    "frame": "Thin yellow border around the emblem; open wordmark",
+    "renderer": "assets/css/premium-v9.css and inline filter from tools/update_shared.py"
+  }
+}

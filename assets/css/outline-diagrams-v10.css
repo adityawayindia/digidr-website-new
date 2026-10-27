@@ -1,0 +1,702 @@
+/*
+ * DigiDr v10 — precise outline diagrams.
+ * The existing HTML, source permissions, selection state and finite motion
+ * controllers remain authoritative. This layer changes their presentation.
+ * Load after the v9 identity, homepage and product-workflow stylesheets.
+ */
+
+body.premium-v10 {
+  --diagram-canvas: #0a0c0f;
+  --diagram-white: #f2f4f6;
+  --diagram-line: #d2d7dc;
+  --diagram-border: #9ba3ac;
+  --diagram-rule: #49515b;
+  --diagram-copy: #c7ced6;
+  --diagram-muted: #b0bac6;
+  --diagram-accent: #ffe524;
+}
+
+/* Shared product architecture: three products, one visible foundation. */
+body.premium-v10 .v9-architecture,
+body.premium-v10 .v9-context-explainer {
+  --v9-line: var(--diagram-line);
+  --v9-border: var(--diagram-border);
+  --v9-muted: var(--diagram-copy);
+  --v9-yellow: var(--diagram-accent);
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-assist-choice,
+body.premium-v10 .v9-shared-intelligence,
+body.premium-v10 .v9-engine-card,
+body.premium-v10 .v9-assist-result {
+  border: 1px solid var(--diagram-border);
+  border-radius: 7px;
+  background: transparent;
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-assist-choice {
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-assist-choice:hover {
+  border-color: var(--diagram-white);
+  background: transparent;
+}
+
+body.premium-v10 .v9-assist-choice.is-selected {
+  border-color: var(--diagram-accent);
+  background: transparent;
+}
+
+body.premium-v10 .v9-assist-choice.is-selected .v9-assist-indicator {
+  border-color: var(--diagram-accent);
+  background: transparent;
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-assist-indicator {
+  border-color: var(--diagram-line);
+  border-radius: 2px;
+}
+
+body.premium-v10 .v9-assist-picks::after,
+body.premium-v10 .v9-assist-choice::after,
+body.premium-v10 .v9-flow-bridge > span {
+  background: var(--diagram-line);
+}
+
+body.premium-v10 .v9-assist-choice.is-selected::after {
+  background: var(--diagram-accent);
+}
+
+body.premium-v10 .v9-flow-bridge {
+  color: var(--diagram-line);
+}
+
+body.premium-v10 .v9-flow-bridge > b {
+  color: var(--diagram-line);
+  background: #08090b;
+}
+
+body.premium-v10 .v9-shared-intelligence {
+  border-color: var(--diagram-line);
+}
+
+body.premium-v10 .v9-engine-grid {
+  gap: 18px;
+}
+
+body.premium-v10 .v9-engine-card {
+  padding: 20px 18px;
+}
+
+body.premium-v10 .v9-engine-card > p {
+  color: var(--diagram-copy);
+}
+
+body.premium-v10 .v9-engine-title h4,
+body.premium-v10 .v9-engine-role,
+body.premium-v10 .v9-shared-heading h4,
+body.premium-v10 .v9-result-copy h4 {
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-assist-copy > span,
+body.premium-v10 .v9-result-copy p,
+body.premium-v10 .v9-shared-heading > p,
+body.premium-v10 .v9-explainer-bottomline p {
+  color: var(--diagram-copy);
+}
+
+body.premium-v10 .v9-step-label,
+body.premium-v10 .v9-result-copy .v9-step-label,
+body.premium-v10 .v9-illustrative-label {
+  color: var(--diagram-muted);
+}
+
+body.premium-v10 .v9-engine-card > a,
+body.premium-v10 .v9-explainer-link,
+body.premium-v10 .v9-explainer-link > span,
+body.premium-v10 .v9-flow-replay {
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-engine-card > a:hover,
+body.premium-v10 .v9-explainer-link:hover,
+body.premium-v10 .v9-explainer-link:hover > span,
+body.premium-v10 .v9-flow-replay:hover:not(:disabled) {
+  color: var(--diagram-accent);
+}
+
+body.premium-v10 .v9-flow-replay {
+  border-color: var(--diagram-border);
+}
+
+/* Use the same finite trace duration; animate the outline only. */
+body.premium-v10 .v9-architecture.is-flowing .v9-engine-card {
+  animation-name: v10-engine-outline;
+}
+
+body.premium-v10 .v9-architecture.is-flowing .v9-assist-result {
+  animation-name: v10-result-outline;
+}
+
+@keyframes v10-engine-outline {
+  0%, 100% { border-color: #9ba3ac; }
+  45%, 70% { border-color: #ffe524; }
+}
+
+@keyframes v10-result-outline {
+  0%, 100% { border-color: #9ba3ac; }
+  50% { border-color: #ffe524; }
+}
+
+/* Context selection: connected sources stay separate from excluded sources. */
+body.premium-v10 .v9-context-source,
+body.premium-v10 .v9-context-engine,
+body.premium-v10 .v9-context-output {
+  background: transparent;
+  border: 1px solid var(--diagram-border);
+  border-radius: 7px;
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-context-engine,
+body.premium-v10 .v9-context-output {
+  border-color: var(--diagram-line);
+}
+
+body.premium-v10 .v9-source-copy > strong,
+body.premium-v10 .v9-context-engine > strong,
+body.premium-v10 .v9-context-output h5,
+body.premium-v10 .v9-context-output li > strong {
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-source-copy > span,
+body.premium-v10 .v9-context-output li > span,
+body.premium-v10 .v9-context-engine li,
+body.premium-v10 .v9-context-engine li > span,
+body.premium-v10 .v9-context-output-note,
+body.premium-v10 .v9-context-status {
+  color: var(--diagram-copy);
+}
+
+body.premium-v10 .v9-flow-heading,
+body.premium-v10 .v9-source-state {
+  color: var(--diagram-muted);
+}
+
+body.premium-v10 .v9-context-source[data-updated="true"] .v9-source-state {
+  color: var(--diagram-accent);
+}
+
+body.premium-v10 .v9-engine-purpose {
+  color: var(--diagram-white);
+  border-color: var(--diagram-rule);
+}
+
+body.premium-v10 .v9-context-output li {
+  border-left: 1px solid var(--diagram-line);
+}
+
+body.premium-v10 .v9-context-output-note {
+  border-color: var(--diagram-rule);
+}
+
+body.premium-v10 .v9-context-lines {
+  color: var(--diagram-line);
+}
+
+body.premium-v10 .v9-context-path,
+body.premium-v10 .v9-context-path.is-output {
+  fill: none;
+  stroke: var(--diagram-line);
+  stroke-width: 1.35;
+}
+
+body.premium-v10 .v9-context-lines marker path {
+  fill: var(--diagram-line);
+  stroke: none;
+}
+
+body.premium-v10 .v9-context-pulse {
+  stroke: var(--diagram-accent);
+  stroke-width: 2;
+}
+
+body.premium-v10 .v9-context-explainer:not(.is-enhanced) .v9-context-engine::before,
+body.premium-v10 .v9-context-explainer:not(.is-enhanced) .v9-context-output::before {
+  color: var(--diagram-line);
+}
+
+body.premium-v10 .v9-purpose-picker button,
+body.premium-v10 .v9-context-update {
+  color: var(--diagram-white);
+  background: transparent;
+  border-color: var(--diagram-border);
+  border-radius: 6px;
+}
+
+body.premium-v10 .v9-purpose-picker button:hover:not(.is-selected),
+body.premium-v10 .v9-context-update:hover {
+  background: transparent;
+  border-color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-purpose-picker button.is-selected {
+  background: transparent;
+  border-color: var(--diagram-accent);
+  color: var(--diagram-accent);
+}
+
+body.premium-v10 .v9-context-update span {
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-context-exclusions {
+  background: transparent;
+  border: 1px dashed var(--diagram-border);
+  border-radius: 7px;
+}
+
+body.premium-v10 .v9-context-excluded-list .v9-context-source {
+  background: transparent;
+  border: 1px solid var(--diagram-rule);
+  border-radius: 5px;
+}
+
+body.premium-v10 .v9-excluded-heading h4,
+body.premium-v10 .v9-context-excluded-list .v9-source-copy > strong {
+  color: var(--diagram-copy);
+}
+
+body.premium-v10 .v9-context-exclusions > p,
+body.premium-v10 .v9-excluded-heading > [data-v9-excluded-count],
+body.premium-v10 .v9-context-excluded-list .v9-source-state {
+  color: var(--diagram-muted);
+}
+
+/* Product output examples become readable outlined documents. */
+body.premium-v10 .v9-product-preview,
+body.premium-v10 .v9-flow-artifact {
+  background: var(--diagram-canvas);
+  color: var(--diagram-white);
+  border: 1px solid var(--diagram-line);
+  border-radius: 7px;
+  box-shadow: none;
+  color-scheme: dark;
+}
+
+body.premium-v10 .v9-product-preview h2,
+body.premium-v10 .v9-flow-artifact h4,
+body.premium-v10 .v9-preview-rows dd,
+body.premium-v10 .v9-flow-artifact dd {
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-preview-top,
+body.premium-v10 .v9-artifact-top,
+body.premium-v10 .v9-preview-rows dt,
+body.premium-v10 .v9-flow-artifact dt,
+body.premium-v10 .v9-product-preview .v9-preview-note,
+body.premium-v10 .v9-flow-artifact .v9-artifact-note {
+  color: var(--diagram-copy);
+}
+
+body.premium-v10 .v9-product-preview .v9-illustrative,
+body.premium-v10 .v9-product-workflow .v9-illustrative {
+  color: var(--diagram-muted);
+}
+
+body.premium-v10 .v9-preview-rows,
+body.premium-v10 .v9-preview-rows > div,
+body.premium-v10 .v9-flow-artifact dl,
+body.premium-v10 .v9-flow-artifact dl > div {
+  border-color: var(--diagram-rule);
+}
+
+body.premium-v10 .v9-preview-note > span {
+  background: transparent;
+  border: 1px solid var(--diagram-line);
+  border-radius: 1px;
+}
+
+/* Only the small monochrome icons inside dark document examples are inverted. */
+body.premium-v10 .v9-product-preview .v9-product-icon > img,
+body.premium-v10 .v9-flow-artifact .v9-product-icon > img {
+  filter: brightness(0) invert(1);
+}
+
+/* Workflow boxes connect at their edges, never through the labels. */
+body.premium-v10 .v9-product-workflow {
+  background: var(--diagram-canvas);
+  border-block-color: var(--diagram-rule);
+}
+
+body.premium-v10 .v9-workflow-heading > .v9-product-icon {
+  width: 28px;
+  height: 28px;
+}
+
+body.premium-v10 .v9-flow-eyebrow,
+body.premium-v10 .v9-flow-toolbar > p {
+  color: var(--diagram-muted);
+}
+
+body.premium-v10 .v9-workflow-intro,
+body.premium-v10 .v9-flow-explanation > p:not(.v9-flow-eyebrow),
+body.premium-v10 .v9-workflow-return > p {
+  color: var(--diagram-copy);
+}
+
+body.premium-v10 .v9-flow-stages {
+  gap: 28px;
+}
+
+body.premium-v10 .v9-flow-stage {
+  display: flex;
+  min-width: 0;
+  padding: 0;
+}
+
+body.premium-v10 .v9-flow-stage > button {
+  height: 100%;
+  min-height: 122px;
+  padding: 18px 12px;
+  gap: 12px;
+  border: 1px solid var(--diagram-border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--diagram-white);
+  font-size: 15px;
+  line-height: 1.45;
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-flow-stage > button:hover {
+  border-color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-flow-stage.is-selected > button,
+body.premium-v10 .v9-flow-stage.is-travelling > button {
+  border-color: var(--diagram-accent);
+  background: transparent;
+}
+
+body.premium-v10 .v9-flow-number {
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--diagram-border);
+  border-radius: 3px;
+  color: var(--diagram-white);
+  background: transparent;
+  font-size: 11px;
+}
+
+body.premium-v10 .v9-flow-stage.is-selected .v9-flow-number,
+body.premium-v10 .v9-flow-stage.is-travelling .v9-flow-number {
+  color: var(--diagram-accent);
+  background: transparent;
+  border-color: var(--diagram-accent);
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-flow-connector {
+  top: 50%;
+  left: 100%;
+  width: 28px;
+  height: 1px;
+  background: var(--diagram-line);
+}
+
+body.premium-v10 .v9-flow-connector::after {
+  right: 4px;
+  border-color: var(--diagram-line);
+}
+
+body.premium-v10 .v9-flow-stage.is-travelling > .v9-flow-connector::before {
+  background: var(--diagram-accent);
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-flow-panels,
+body.premium-v10 .v9-flow-panels:not([data-enhanced]) .v9-flow-panel + .v9-flow-panel,
+body.premium-v10 .v9-workflow-return,
+body.premium-v10 .v9-decision-board {
+  border-color: var(--diagram-rule);
+}
+
+body.premium-v10 .v9-workflow-return > span {
+  color: var(--diagram-line);
+}
+
+body.premium-v10 .v9-flow-toolbar button,
+body.premium-v10 .v9-workflow-return button,
+body.premium-v10 .v9-decision-cases button {
+  min-height: 44px;
+  border: 1px solid var(--diagram-border);
+  border-radius: 6px;
+  color: var(--diagram-white);
+  background: transparent;
+}
+
+body.premium-v10 .v9-flow-toolbar button:hover:not(:disabled),
+body.premium-v10 .v9-workflow-return button:hover:not(:disabled),
+body.premium-v10 .v9-decision-cases button:hover:not(:disabled) {
+  border-color: var(--diagram-white);
+  background: transparent;
+}
+
+body.premium-v10 .v9-decision-cases button[aria-pressed="true"] {
+  border-color: var(--diagram-accent);
+  color: var(--diagram-accent);
+  background: transparent;
+}
+
+body.premium-v10 .v9-decision-branches::before,
+body.premium-v10 .v9-decision-branches::after,
+body.premium-v10 .v9-decision-outcome::before {
+  background: var(--diagram-line);
+}
+
+body.premium-v10 .v9-decision-outcome {
+  border: 1px solid var(--diagram-border);
+  border-radius: 6px;
+  background: transparent;
+}
+
+body.premium-v10 .v9-decision-outcome.is-outcome {
+  border-color: var(--diagram-accent);
+  background: transparent;
+}
+
+body.premium-v10 .v9-decision-outcome.is-outcome::before {
+  background: var(--diagram-accent);
+}
+
+body.premium-v10 .v9-decision-outcome p,
+body.premium-v10 .v9-decision-result > p {
+  color: var(--diagram-copy);
+}
+
+/* Technology and Trust: short connected outline flows. */
+body.premium-v10 .v9-policy-diagram {
+  border: 1px solid var(--diagram-border);
+  border-radius: 8px;
+  background: var(--diagram-canvas);
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-policy-diagram .v9-policy-label {
+  color: var(--diagram-muted);
+}
+
+body.premium-v10 .v9-policy-flow li {
+  outline: none;
+  border: 1px solid var(--diagram-border);
+  border-radius: 6px;
+  background: transparent;
+  box-shadow: none;
+}
+
+body.premium-v10 .v9-policy-step {
+  color: var(--diagram-muted);
+}
+
+body.premium-v10 .v9-policy-flow li + li::before {
+  content: "";
+  position: absolute;
+  left: -31px;
+  top: 50%;
+  width: 30px;
+  height: 1px;
+  background: var(--diagram-line);
+  pointer-events: none;
+}
+
+body.premium-v10 .v9-policy-flow li + li::after {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid var(--diagram-line);
+  border-right: 1px solid var(--diagram-line);
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+body.premium-v10 .v9-policy-flow h3,
+body.premium-v10 .v9-policy-diagram [data-policy-result] {
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .v9-policy-flow p,
+body.premium-v10 .v9-policy-foot p {
+  color: var(--diagram-copy);
+}
+
+body.premium-v10 .v9-policy-controls button,
+body.premium-v10 .v9-policy-replay {
+  border-color: var(--diagram-border);
+  border-radius: 6px;
+  color: var(--diagram-white);
+  background: transparent;
+}
+
+body.premium-v10 .v9-policy-controls button[aria-pressed="true"] {
+  border-color: var(--diagram-accent);
+  color: var(--diagram-accent);
+  background: transparent;
+}
+
+body.premium-v10 .v9-policy-diagram [data-policy-result][data-state="review"] {
+  color: var(--diagram-accent);
+}
+
+body.premium-v10 .v9-policy-diagram.is-tracing .v9-policy-flow li {
+  animation-name: v10-policy-outline;
+}
+
+@keyframes v10-policy-outline {
+  0%, 100% { border-color: #9ba3ac; }
+  45% { border-color: #ffe524; }
+}
+
+/* Small retained homepage demos follow the same outlined visual grammar. */
+body.premium-v10 .tech-demo,
+body.premium-v10 .tech-demo.dark-demo {
+  border-color: var(--diagram-border);
+  border-radius: 7px;
+  background: var(--diagram-canvas);
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .tech-demo .demo-chip,
+body.premium-v10 .tech-demo.dark-demo .demo-chip {
+  border: 1px solid var(--diagram-border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--diagram-white);
+}
+
+body.premium-v10 .tech-demo .demo-chip.active,
+body.premium-v10 .tech-demo.dark-demo .demo-chip.active {
+  border-color: var(--diagram-accent);
+  color: var(--diagram-accent);
+  background: transparent;
+  transform: none;
+}
+
+body.premium-v10 .tech-demo .demo-arrow {
+  color: var(--diagram-line);
+}
+
+/* Keep the new diagram treatment distinct from general cards and photography. */
+body.premium-v10 :is(.v9-architecture, .v9-context-explainer, .v9-product-workflow, .v9-policy-diagram) :is(button, a):focus-visible {
+  outline: 2px solid var(--diagram-accent);
+  outline-offset: 4px;
+}
+
+@media (max-width: 1120px) {
+  body.premium-v10 .v9-policy-flow li + li::before {
+    left: -23px;
+    width: 22px;
+  }
+}
+
+@media (max-width: 1080px) {
+  body.premium-v10 .v9-flow-stages {
+    gap: 20px;
+  }
+
+  body.premium-v10 .v9-flow-stage > button {
+    padding: 16px 8px;
+    font-size: 13px;
+  }
+
+  body.premium-v10 .v9-flow-connector {
+    width: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  body.premium-v10 .v9-engine-card {
+    padding: 18px 15px;
+  }
+
+  body.premium-v10 .v9-engine-title {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) {
+  body.premium-v10 .v9-flow-stages {
+    gap: 28px;
+  }
+
+  body.premium-v10 .v9-flow-stage > button,
+  body.premium-v10 .v9-flow-stage:last-child > button {
+    height: auto;
+    min-height: 72px;
+    padding: 16px 18px;
+    gap: 15px;
+    font-size: 16px;
+  }
+
+  body.premium-v10 .v9-flow-connector {
+    top: 100%;
+    left: 32px;
+    width: 1px;
+    height: 28px;
+  }
+
+  body.premium-v10 .v9-flow-connector::after {
+    left: -3px;
+    right: auto;
+    bottom: 4px;
+  }
+}
+
+@media (max-width: 760px) {
+  body.premium-v10 .v9-policy-flow li + li::before {
+    left: 28px;
+    top: -29px;
+    width: 1px;
+    height: 28px;
+  }
+
+  body.premium-v10 .v9-policy-flow li + li::after {
+    left: 25px;
+    top: -8px;
+    transform: rotate(135deg);
+  }
+}
+
+@media (max-width: 680px) {
+  body.premium-v10 .v9-engine-card {
+    padding: 20px 18px;
+  }
+
+  body.premium-v10 .v9-engine-title {
+    flex-wrap: nowrap;
+  }
+
+  body.premium-v10 .v9-context-excluded-list .v9-context-source {
+    padding: 11px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.premium-v10 .v9-architecture *,
+  body.premium-v10 .v9-context-explainer *,
+  body.premium-v10 .v9-product-workflow *,
+  body.premium-v10 .v9-policy-diagram * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

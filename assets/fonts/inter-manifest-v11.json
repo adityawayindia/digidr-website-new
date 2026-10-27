@@ -1,0 +1,50 @@
+{
+  "website_version": "16.0.0",
+  "family": "Inter",
+  "css_aliases": [
+    "Inter",
+    "Inter Display"
+  ],
+  "verified_date": "2026-10-24",
+  "official_home": "https://rsms.me/inter/",
+  "official_repository": "https://github.com/rsms/inter",
+  "license": "SIL Open Font License 1.1",
+  "font_axes": [
+    {
+      "tag": "opsz",
+      "minimum": 14.0,
+      "default": 14.0,
+      "maximum": 32.0
+    },
+    {
+      "tag": "wght",
+      "minimum": 100.0,
+      "default": 400.0,
+      "maximum": 900.0
+    }
+  ],
+  "font_names": {
+    "1": "Inter Variable",
+    "2": "Regular",
+    "4": "Inter Variable",
+    "5": "Version 4.001;git-9221beed3",
+    "6": "InterVariable",
+    "16": null,
+    "17": null
+  },
+  "validation": "WOFF2 decoded and variable axes verified with fontTools. Font bytes are unchanged from the official source.",
+  "files": [
+    {
+      "file": "assets/fonts/inter-variable.woff2",
+      "source_url": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/InterVariable.woff2",
+      "bytes": 352240,
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+    },
+    {
+      "file": "assets/fonts/inter-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/rsms/inter/master/LICENSE.txt",
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    }
+  ]
+}

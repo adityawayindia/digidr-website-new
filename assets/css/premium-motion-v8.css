@@ -1,0 +1,204 @@
+/* v9: readable comparison holds, bounded friendly cues and a visible finite sway. */
+.v8-compare-demo {
+  --v8-split:50%;
+  min-width:0;
+  position:relative;
+}
+.v8-compare-demo .compare[data-v8-compare] {
+  --split:var(--v8-split);
+}
+.v8-compare-demo .compare input[type="range"] {
+  margin:0;
+  touch-action:pan-y;
+}
+.v8-walk-track {
+  position:relative;
+  height:84px;
+  margin-inline:2px;
+  pointer-events:none;
+}
+.v8-walk-track::after {
+  content:"";
+  position:absolute;
+  inset:auto 0 5px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#757d8a48 14%,#757d8a48 86%,transparent);
+}
+.v8-slider-pole {
+  position:absolute;
+  left:var(--v8-split);
+  top:0;
+  height:58px;
+  width:2px;
+  margin-left:-1px;
+  background:#f3f4f6;
+  opacity:.85;
+}
+.v8-walker {
+  position:absolute;
+  top:34px;
+  left:0;
+  width:44px;
+  height:44px;
+  overflow:visible;
+  color:#f4f5f7;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  pointer-events:none;
+}
+.v8-walker path,.v8-walker circle {
+  vector-effect:non-scaling-stroke;
+}
+.v8-walker-hand {
+  stroke:#ffe524;
+  fill:#ffe524;
+  stroke-width:1;
+}
+.v8-walker-leg {
+  transform-origin:22px 26px;
+  transform-box:view-box;
+}
+.v8-walker-leg-a { transform:rotate(var(--v8-step-angle,0deg)); }
+.v8-walker-leg-b { transform:rotate(calc(-1 * var(--v8-step-angle,0deg))); }
+.v9-wave-arm { transform-origin:22px 17px;transform-box:view-box; }
+.v9-cue-waving .v9-wave-arm { animation:v9-friendly-wave 1.6s ease-in-out 1; }
+@keyframes v9-friendly-wave {
+  0%,100% { transform:rotate(0deg); }
+  20%,50%,80% { transform:rotate(100deg); }
+  35%,65% { transform:rotate(75deg); }
+}
+.v9-compare-cue {
+  position:absolute;top:2px;left:0;width:132px;padding:6px 9px;
+  border:1px solid #555b65;border-radius:8px;background:#181b20;color:#f4f5f7;
+  font-size:12px;font-weight:550;line-height:1.25;text-align:center;
+}
+.v9-compare-cue::after {
+  content:"";position:absolute;bottom:-4px;left:calc(50% - 4px);width:6px;height:6px;
+  background:#181b20;border-bottom:1px solid #555b65;border-right:1px solid #555b65;
+  transform:rotate(45deg);
+}
+.v9-compare-cue[hidden] { display:none!important; }
+.v8-motion-controls {
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px 12px;
+  align-items:center;
+  justify-content:space-between;
+  padding-top:2px;
+}
+.v8-motion-controls[hidden] { display:none!important; }
+.v8-motion-controls p {
+  flex-basis:100%;
+  margin:0;
+  color:#bac0ca;
+  font-size:13px;
+  line-height:1.5;
+}
+.v8-motion-buttons { display:flex;gap:4px;flex-shrink:0; }
+.v9-compare-full-views { display:flex;gap:5px;flex-wrap:wrap; }
+.v8-motion-buttons button,.v9-compare-full-views button {
+  appearance:none;
+  min-width:52px;
+  min-height:44px;
+  padding:9px 10px;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:#f2f3f6;
+  font:inherit;
+  font-size:13px;
+  font-weight:600;
+  cursor:pointer;
+}
+.v9-compare-full-views button { border:1px solid #404650;padding-inline:12px; }
+.v9-compare-full-views button:hover { border-color:#ffe524;color:#ffe524;background:#ffe52408; }
+.v8-motion-buttons button:hover:not(:disabled) { background:#ffffff0c;color:#ffe524; }
+.v8-motion-buttons button:disabled { color:#737b88;cursor:default; }
+.v8-motion-buttons button:focus-visible,.v9-compare-full-views button:focus-visible { outline:2px solid #ffe524;outline-offset:2px; }
+.v8-motion-status {
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  padding:0!important;
+  margin:-1px!important;
+  overflow:hidden!important;
+  clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;
+  border:0!important;
+}
+.v8-pinned-workspace { position:relative;min-width:0; }
+.v9-workspace-caption { display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:44px;margin-bottom:28px; }
+.v9-workspace-caption .doctor-orbit-label { margin:0;font-size:11px; }
+.v9-pendulum-pause {
+  flex:0 0 auto;border:1px solid #ffffff28;border-radius:7px;padding:9px 12px;min-height:40px;
+  color:#f0f1f4;background:#111318;font:inherit;font-size:12px;font-weight:550;cursor:pointer;
+}
+.v9-pendulum-pause:hover:not(:disabled) { color:#ffe524;border-color:#ffe52470; }
+.v9-pendulum-pause:disabled { color:#a0a7b3;background:transparent;border-color:transparent;cursor:default; }
+.v9-pendulum-pause:focus-visible { outline:2px solid #ffe524;outline-offset:3px; }
+.v9-pendulum-pause[hidden] { display:none!important; }
+.v8-pinned-workspace .doctor-workspace {
+  transform-origin:22px 0;
+  transform:rotate(-2deg);
+}
+.v8-workspace-pin {
+  position:absolute;
+  z-index:3;
+  top:-6px;
+  left:16px;
+  width:12px;
+  height:12px;
+  border:1px solid #e7cb13;
+  border-radius:50%;
+  background:#ffe524;
+  box-shadow:0 2px 3px #0005,inset -2px -2px 0 #bb9c1a40;
+  pointer-events:none;
+}
+.v8-workspace-pin::after {
+  content:"";
+  position:absolute;
+  width:3px;
+  height:3px;
+  left:2px;
+  top:2px;
+  border-radius:50%;
+  background:#fff9;
+}
+.v8-pinned-workspace[data-motion-state="swinging"] .doctor-workspace {
+  animation:v8-workspace-sway 9s ease-in-out 2;
+  will-change:transform;
+}
+@keyframes v8-workspace-sway {
+  0%,100% { transform:rotate(-2deg); }
+  25% { transform:rotate(1deg); }
+  50% { transform:rotate(-2deg); }
+  75% { transform:rotate(-5deg); }
+}
+@media(min-width:601px) {
+  .doctor-hero-stage:has([data-v8-pinned-workspace]) { padding-left:12px;padding-right:34px; }
+}
+@media(max-width:600px) {
+  .v9-workspace-caption { margin-bottom:16px;min-height:25px; }
+  .v8-pinned-workspace .doctor-workspace,
+  .v8-pinned-workspace[data-motion-state="swinging"] .doctor-workspace {
+    transform:none;
+    animation:none;
+  }
+}
+@media(max-width:380px) {
+  .v8-motion-controls { gap:5px; }
+  .v8-motion-controls p { font-size:12px; }
+  .v8-motion-buttons { margin-left:auto; }
+  .v8-motion-buttons button { min-width:48px;padding-inline:8px; }
+  .v9-compare-full-views button { padding-inline:9px;font-size:12px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .v8-pinned-workspace .doctor-workspace,
+  .v8-pinned-workspace[data-motion-state="swinging"] .doctor-workspace {
+    transform:none;
+    animation:none;
+  }
+  .v8-walker-leg,.v9-wave-arm { transform:none!important;animation:none!important; }
+}

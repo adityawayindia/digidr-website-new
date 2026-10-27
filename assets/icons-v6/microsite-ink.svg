@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lucide 1.8.0; ISC and applicable Feather MIT notices: LUCIDE-LICENSE.txt. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#272e49" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="microsite-ink-title">
+  <title id="microsite-ink-title">A structured website window representing a doctor’s microsite</title>
+  <rect width="18" height="18" x="3" y="3" rx="2"/>
+  <path d="M3 9h18"/>
+  <path d="M9 21V9"/>
+</svg>

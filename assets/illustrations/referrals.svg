@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lucide 1.8.0; Copyright (c) 2026 Lucide Icons and Contributors.
+     ISC license; complete license and applicable Feather MIT notices are
+     distributed in LUCIDE-LICENSE.txt beside this illustration. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="-2.23958333 -2.23958333 28.47916667 28.47916667" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="referrals-title referrals-description">
+  <title id="referrals-title">Connected points and a directional handoff representing a patient referral</title>
+  <desc id="referrals-description">DigiDr flat vector illustration, using the Lucide GitPullRequestArrow icon. The navy artwork is centred at 75 percent of the square, including its rounded stroke.</desc>
+  <rect x="-2.23958333" y="-2.23958333" width="28.47916667" height="28.47916667" fill="#cae7df" aria-hidden="true"/>
+  <g id="referrals-artwork" fill="none" stroke="#191b3d" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="5" cy="6" r="3"/>
+    <path d="M5 9v12"/>
+    <circle cx="19" cy="18" r="3"/>
+    <path d="m15 9-3-3 3-3" stroke="#267a60"/>
+    <path d="M12 6h5a2 2 0 0 1 2 2v7" stroke="#267a60"/>
+  </g>
+</svg>

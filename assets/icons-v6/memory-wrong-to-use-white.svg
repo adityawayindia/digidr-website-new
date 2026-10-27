@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lucide 1.8.0; ISC and applicable Feather MIT notices: LUCIDE-LICENSE.txt. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eef0f4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="memory-wrong-to-use-white-title">
+  <title id="memory-wrong-to-use-white-title">A lock with a keyhole representing limits on the use of remembered information</title>
+  <circle cx="12" cy="16" r="1"/>
+  <rect x="3" y="10" width="18" height="12" rx="2"/>
+  <path d="M7 10V7a5 5 0 0 1 10 0v3"/>
+</svg>

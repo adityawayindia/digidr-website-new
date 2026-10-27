@@ -1,0 +1,11 @@
+{
+  "confirmed_by": "DigiDr founder in the project conversation",
+  "confirmed_on": "2026-10-25",
+  "headline": "Growing across India. One doctor at a time.",
+  "metrics": [
+    {"value": "18", "suffix": "+", "label": "Cities represented", "detail": "A presence across India"},
+    {"value": "23", "suffix": "+", "label": "Specialties represented", "detail": "Expertise that goes further"},
+    {"value": "1M", "suffix": "+", "label": "Views of doctor content", "detail": "Knowledge finding an audience"}
+  ],
+  "note": "Platform figures confirmed by DigiDr."
+}

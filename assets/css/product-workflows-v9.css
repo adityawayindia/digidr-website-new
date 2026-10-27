@@ -1,0 +1,149 @@
+/* DigiDr v9 — product explanations stay readable while direction is animated. */
+body .v9-product-hero .page-hero-inner{grid-template-columns:minmax(0,1.45fr) minmax(290px,.75fr);gap:clamp(32px,4.5vw,72px);align-items:center}
+body .v9-product-hero h1{font-size:clamp(44px,4.6vw,68px);line-height:1.055;letter-spacing:-.055em;max-width:840px}
+body .v9-product-hero .page-hero-inner>div>p{font-size:18px;line-height:1.65;max-width:690px}
+body .v9-product-hero .v9-product-process-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;margin-top:24px;font-size:15px;font-weight:600;color:#ffe524;text-underline-offset:6px}
+body .v9-product-preview{box-sizing:border-box;justify-self:end;width:100%;max-width:375px;padding:24px;border:1px solid #d9ddd8;border-radius:16px;background:#f4f5ef;color:#15191e;box-shadow:none;min-width:0;color-scheme:light}
+body .v9-preview-top,body .v9-artifact-top{display:flex;gap:10px;align-items:center;color:#59616a;font-size:11px;line-height:1.4;font-weight:600}
+body .v9-product-icon{display:inline-flex;flex:none;align-items:center;justify-content:center;width:24px;height:24px;aspect-ratio:1;padding:0;margin:0;background:transparent;border:0}
+body .v9-product-icon>img{display:block;width:100%;height:100%;aspect-ratio:1;object-fit:contain;filter:none;transform:none}
+body .v9-illustrative{display:inline-block;color:#66705f;font-size:10px;line-height:1.4;font-weight:500;white-space:nowrap}
+body .v9-preview-top .v9-illustrative{margin-left:auto}
+body .v9-product-preview h2{font-size:27px;line-height:1.14;letter-spacing:-.045em;font-weight:600;color:#171b20;margin:28px 0 23px;max-width:290px}
+body .v9-preview-rows{margin:0;border-top:1px solid #d5dcd3}
+body .v9-preview-rows>div{display:grid;grid-template-columns:minmax(0,1fr);gap:5px;padding:12px 0;border-bottom:1px solid #d5dcd3;min-width:0}
+body .v9-preview-rows dt{font-size:11px;line-height:1.5;font-weight:500;color:#59616a}
+body .v9-preview-rows dd{font-size:14px;line-height:1.45;font-weight:550;color:#171b20;margin:0}
+body .v9-product-preview .v9-preview-note{display:flex;align-items:flex-start;gap:8px;margin:18px 0 0;padding:0;color:#465045;font-size:11px;line-height:1.5}
+body .v9-preview-note>span{display:block;flex:none;width:6px;height:6px;border-radius:50%;background:#66662a;margin-top:5px}
+
+body .v9-product-workflow{border-block:1px solid #ffffff13;background:#101216}
+body .v9-workflow-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:30px;max-width:1050px}
+body .v9-workflow-heading>div{min-width:0}
+body .v9-workflow-heading>.v9-product-icon{width:32px;height:32px;flex:none;margin-top:31px}
+body .v9-flow-eyebrow{margin:0 0 14px;color:#d5c856;font-family:"Geist Mono",monospace;font-size:11px;font-weight:500;line-height:1.6;letter-spacing:.06em}
+body .v9-workflow-heading h2{margin:0;max-width:900px;font-size:clamp(34px,4vw,54px);line-height:1.08;letter-spacing:-.045em}
+body .v9-workflow-intro{max-width:790px;margin:23px 0 0;font-size:18px;line-height:1.65;color:#bac2cb}
+body .v9-flow-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:35px 0 15px}
+body .v9-flow-toolbar[hidden]{display:none}
+body .v9-flow-toolbar>p{font-size:13px;line-height:1.5;margin:0;color:#b6bfc9}
+body .v9-flow-toolbar>div{display:flex;gap:8px;flex:none}
+body .v9-flow-toolbar button,body .v9-workflow-return button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;border:1px solid #4a515b;background:transparent;border-radius:999px;padding:9px 15px;color:#f0f3f6;font:550 12px/1.5 "Geist",Arial,sans-serif;cursor:pointer}
+body .v9-flow-toolbar button:hover,body .v9-workflow-return button:hover{background:#ffffff08;border-color:#8e969e}
+body .v9-flow-toolbar button:disabled,body .v9-workflow-return button:disabled{cursor:default;opacity:.45}
+body .v9-flow-stages{display:grid;grid-template-columns:repeat(var(--flow-count),minmax(0,1fr));list-style:none;padding:22px 0 28px;margin:0;gap:0}
+body .v9-flow-stage{position:relative;min-width:0;margin:0;padding:0 9px}
+body .v9-flow-stage>button{position:relative;display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;min-height:95px;padding:0 3px 12px;border:0;border-radius:6px;color:#c3cbd5;background:none;text-align:center;font:550 15px/1.4 "Geist",Arial,sans-serif;cursor:pointer;isolation:isolate}
+body .v9-flow-stage>button:disabled{cursor:default}
+body .v9-flow-number{display:grid;place-items:center;position:relative;z-index:2;width:38px;height:38px;flex:none;border:1px solid #626b73;border-radius:50%;background:#101216;color:#bdc5cd;font-family:"Geist Mono",monospace;font-size:11px;line-height:1}
+body .v9-flow-stage.is-selected .v9-flow-number{color:#111318;background:#ffe524;border-color:#ffe524}
+body .v9-flow-stage.is-selected>button{color:#fff}
+body .v9-flow-stage>button:hover .v9-flow-number{border-color:#ffe524}
+body .v9-flow-connector{position:absolute;z-index:1;top:18px;left:calc(50% + 25px);width:calc(100% - 50px);height:1px;background:#58616c;pointer-events:none}
+body .v9-flow-connector::after{content:"";position:absolute;right:0;top:-3px;width:6px;height:6px;border-top:1px solid #89939d;border-right:1px solid #89939d;transform:rotate(45deg)}
+body .v9-flow-stage:last-child>.v9-flow-connector{display:none}
+body .v9-flow-stage.is-travelling .v9-flow-number{border-color:#ffe524;box-shadow:0 0 0 4px #ffe52412;color:#ffe524;background:#20221a}
+body .v9-flow-stage.is-travelling>.v9-flow-connector::before{content:"";position:absolute;top:-2px;left:0;width:5px;height:5px;border-radius:50%;background:#ffe524;animation:v9-flow-travel .62s linear both}
+@keyframes v9-flow-travel{from{left:0}to{left:100%}}
+body .v9-flow-panels{border-top:1px solid #373f49;padding-top:35px}
+body .v9-flow-panel{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:clamp(28px,5vw,75px);align-items:start;padding:0;scroll-margin-top:130px}
+body .v9-flow-panel[hidden]{display:none}
+body .v9-flow-panels:not([data-enhanced]) .v9-flow-panel+ .v9-flow-panel{padding-top:40px;margin-top:40px;border-top:1px solid #373f49}
+body .v9-flow-explanation{min-width:0;padding-top:10px}
+body .v9-flow-explanation h3{max-width:570px;margin:0 0 19px;font-size:clamp(27px,2.5vw,36px);line-height:1.17;letter-spacing:-.04em;color:#f4f5f7}
+body .v9-flow-explanation>p:not(.v9-flow-eyebrow){max-width:590px;margin:0 0 15px;font-size:16px;line-height:1.75;color:#b9c2cd}
+body .v9-flow-artifact{min-width:0;background:#f3f4ee;color:#151a20;border:1px solid #d7ddd3;border-radius:14px;padding:24px 26px;color-scheme:light}
+body .v9-flow-artifact h4{font-size:22px;font-weight:600;line-height:1.2;letter-spacing:-.025em;margin:20px 0 18px;color:#181d21}
+body .v9-flow-artifact dl{margin:0;border-top:1px solid #d2d8cf}
+body .v9-flow-artifact dl>div{display:grid;grid-template-columns:minmax(90px,.7fr) minmax(0,1fr);gap:20px;padding:13px 0;border-bottom:1px solid #d2d8cf}
+body .v9-flow-artifact dt{color:#5d665e;font-size:12px;line-height:1.6;font-weight:500}
+body .v9-flow-artifact dd{margin:0;color:#202720;font-size:13px;font-weight:500;line-height:1.6}
+body .v9-flow-artifact .v9-artifact-note{margin:17px 0 0;color:#546151;font-size:12px;line-height:1.6}
+body .v9-workflow-return{display:flex;align-items:center;gap:18px;margin:32px 0 0;border-top:1px solid #373f49;padding-top:23px}
+body .v9-workflow-return>span{font-size:28px;line-height:1;color:#d7cb65;flex:none}
+body .v9-workflow-return>p{flex:1;margin:0;max-width:850px;color:#aeb9c5;font-size:13px;line-height:1.7}
+body .v9-workflow-return button{flex:none}
+body .v9-flow-screen-reader{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;margin:-1px}
+
+/* Trust is a decision, so its four possible outcomes remain visible together. */
+body .v9-decision-board{border-top:1px solid #373f49;margin-top:40px;padding-top:30px}
+body .v9-decision-heading{display:flex;align-items:start;justify-content:space-between;gap:20px}
+body .v9-decision-heading .v9-illustrative{color:#a2adb9;margin-top:5px}
+body .v9-decision-heading h3{margin:0;color:#f5f6f8;font-size:26px;font-weight:550;line-height:1.25;letter-spacing:-.03em}
+body .v9-decision-cases{display:flex;flex-wrap:wrap;gap:8px;margin:21px 0 0}
+body .v9-decision-cases button{padding:11px 15px;border:1px solid #4b545e;border-radius:999px;color:#c6cdd6;background:transparent;font:500 13px/1.5 "Geist",Arial,sans-serif;cursor:pointer;min-height:44px}
+body .v9-decision-cases button[aria-pressed="true"]{color:#111318;background:#ffe524;border-color:#ffe524}
+body .v9-decision-cases button:disabled{cursor:default}
+body .v9-decision-branches{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:18px;padding-top:36px}
+body .v9-decision-branches::before{content:"";position:absolute;top:15px;left:12.5%;right:12.5%;height:1px;background:#58616c}
+body .v9-decision-branches::after{content:"";position:absolute;top:0;left:50%;height:15px;width:1px;background:#58616c}
+body .v9-decision-outcome{position:relative;padding:19px 17px;border:1px solid #424c57;border-radius:11px;background:#171b21;min-width:0}
+body .v9-decision-outcome::before{content:"";position:absolute;left:50%;top:-22px;height:21px;width:1px;background:#58616c}
+body .v9-decision-outcome strong{display:block;font-size:15px;font-weight:600;line-height:1.4;color:#e9edf0}
+body .v9-decision-outcome p{font-size:12px;line-height:1.6;color:#aeb8c3;margin:9px 0 0}
+body .v9-decision-outcome.is-outcome{background:#22231b;border-color:#b8a538}
+body .v9-decision-outcome.is-outcome strong{color:#ffe524}
+body .v9-decision-outcome.is-outcome::before{background:#ffe524}
+body .v9-decision-result{margin-top:18px;padding:18px 0 0;color:#f3f4f6}
+body .v9-decision-result>strong{font-size:16px;font-weight:600;line-height:1.5}
+body .v9-decision-result>p{margin:8px 0 0;color:#bac3cd;font-size:14px;line-height:1.7;max-width:860px}
+
+@media(max-width:1080px){
+  body .v9-product-hero .page-hero-inner{grid-template-columns:minmax(0,1.2fr) minmax(270px,.8fr);gap:32px}
+  body .v9-product-hero h1{font-size:clamp(43px,5.1vw,61px)}
+  body .v9-flow-stage>button{font-size:13px;min-height:96px}
+  body .v9-flow-stage{padding-inline:5px}
+  body .v9-flow-panel{gap:30px}
+}
+@media(max-width:800px){
+  body .v9-product-hero .page-hero-inner{grid-template-columns:minmax(0,1fr);gap:34px}
+  body .v9-product-preview{justify-self:start;max-width:460px}
+  body .v9-product-hero h1{font-size:clamp(42px,7vw,60px);max-width:700px}
+  body .v9-product-preview h2{max-width:none;font-size:28px;margin-top:23px}
+  body .v9-preview-rows>div{grid-template-columns:minmax(100px,.8fr) minmax(0,1fr);gap:18px}
+  body .v9-flow-stages{grid-template-columns:minmax(0,1fr);padding:15px 0 22px;gap:0}
+  body .v9-flow-stage{padding:0}
+  body .v9-flow-stage>button{flex-direction:row;gap:18px;min-height:63px;text-align:left;padding:0 0 25px;font-size:16px;align-items:center}
+  body .v9-flow-stage:last-child>button{padding-bottom:0;min-height:38px}
+  body .v9-flow-connector{top:44px;left:18px;width:1px;height:calc(100% - 50px)}
+  body .v9-flow-connector::after{top:auto;bottom:0;left:-3px;right:auto;transform:rotate(135deg)}
+  body .v9-flow-stage.is-travelling>.v9-flow-connector::before{left:-2px;top:0;animation-name:v9-flow-travel-down}
+  body .v9-flow-panel{grid-template-columns:minmax(0,1fr);gap:23px}
+  body .v9-flow-explanation h3{font-size:30px}
+  body .v9-flow-artifact{max-width:100%;width:100%;box-sizing:border-box}
+  body .v9-workflow-return{align-items:flex-start;gap:13px;flex-wrap:wrap}
+  body .v9-workflow-return>p{flex-basis:calc(100% - 45px)}
+  body .v9-workflow-return button{margin-left:37px}
+  body .v9-decision-branches{grid-template-columns:1fr;padding-top:0;padding-left:22px;gap:12px;margin-top:26px}
+  body .v9-decision-branches::before{left:0;top:0;bottom:50px;height:auto;width:1px;right:auto}
+  body .v9-decision-branches::after{display:none}
+  body .v9-decision-outcome::before{top:50%;left:-23px;width:22px;height:1px}
+  body .v9-decision-outcome{padding:16px 18px}
+  body .v9-decision-outcome p{font-size:13px;margin-top:5px}
+}
+@keyframes v9-flow-travel-down{from{top:0}to{top:100%}}
+@media(max-width:520px){
+  body .v9-workflow-heading{gap:16px}
+  body .v9-workflow-heading>.v9-product-icon{width:26px;height:26px;margin-top:30px}
+  body .v9-workflow-heading h2{font-size:34px}
+  body .v9-workflow-intro{font-size:16px;line-height:1.7}
+  body .v9-flow-toolbar{align-items:flex-start;flex-direction:column;gap:12px;margin-top:25px}
+  body .v9-flow-toolbar button{min-height:44px}
+  body .v9-flow-artifact{padding:21px 19px}
+  body .v9-flow-artifact dl>div{grid-template-columns:minmax(0,1fr);gap:5px;padding-block:12px}
+  body .v9-flow-artifact dt{font-size:11px}
+  body .v9-flow-artifact dd{font-size:14px}
+  body .v9-product-preview{padding:21px 19px}
+  body .v9-preview-top{gap:8px;flex-wrap:wrap}
+  body .v9-preview-top .v9-illustrative{font-size:9px}
+  body .v9-preview-rows>div{grid-template-columns:minmax(0,1fr);gap:4px}
+  body .v9-decision-heading{flex-direction:column;gap:9px}
+  body .v9-decision-heading h3{font-size:24px}
+  body .v9-decision-heading .v9-illustrative{margin:0}
+  body .v9-decision-cases{gap:8px}
+  body .v9-decision-cases button{font-size:12px;padding-inline:13px}
+}
+@media(prefers-reduced-motion:reduce){
+  body .v9-flow-stage.is-travelling>.v9-flow-connector::before{animation:none;display:none}
+  body .v9-flow-stage.is-travelling .v9-flow-number{box-shadow:none}
+}
