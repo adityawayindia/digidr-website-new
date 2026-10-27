@@ -216,6 +216,6 @@
     const link=e.target.closest('[data-track]');if(!link)return;const event=link.dataset.track;
     if(!['register_interest','open_app','download_android','view_plans','view_demo'].includes(event))return;
     window.dispatchEvent(new CustomEvent('digidr:interaction',{detail:{event}}));
-    if(typeof window.gtag==='function')window.gtag('event',event,{site_section:'premium_website'});
+    // GA4 events are sent by analytics.js
   });
 })();

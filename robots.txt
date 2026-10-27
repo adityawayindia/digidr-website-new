@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-Sitemap: https://digidr-premium-v2.magarwal-iit.chatgpt.site/sitemap.xml
+Sitemap: https://digidr.app/sitemap.xml
