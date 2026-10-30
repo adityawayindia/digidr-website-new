@@ -5,15 +5,10 @@ body.premium-v9 .logo {
   width:var(--brand-width);max-width:100%;padding:5px 0;
   border:0;border-radius:0;background:#08090b;line-height:1;
 }
-body.premium-v9 .logo::before {
-  content:"";position:absolute;left:0;top:5px;bottom:5px;
-  width:calc(var(--brand-width) * .322);border:1px solid #ffe524;
-  border-radius:7px;pointer-events:none;
-}
 body.premium-v9 .official-brand-logo {
   display:block;width:var(--brand-width);max-width:100%;height:auto;
-  aspect-ratio:500/136;object-fit:contain;object-position:center;
-  filter:url(#digidr-dark-brand);transform:none;
+  aspect-ratio:1394/285;object-fit:contain;object-position:center;
+  filter:none;transform:none;
 }
 body.premium-v9 .brand-filter-definitions {position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}
 body.premium-v9 .footer-brand .logo {--brand-width:180px}

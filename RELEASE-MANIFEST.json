@@ -13,12 +13,12 @@
       "sha256": "6ccc7fffdfa4dfe0e19aaf72dedf342046b93fb9e202f0a08f98df21034357cf"
     },
     {
-      "path": "assets/brand/digidr-logo.png",
+      "path": "assets/brand/digidr_logo.png",
       "bytes": 32211,
       "sha256": "5e492fb6dd1f3163782df30eb4e7cacf802dac2774b6598795aa03cd8c0dfdd0"
     },
     {
-      "path": "assets/brand/favicon.ico",
+      "path": "assets/brand/digidr_favicon.png",
       "bytes": 15406,
       "sha256": "3320f1e30d79e40053aab8a00e7a3ea964513ce91b4ea33d639f31278c52ffda"
     },

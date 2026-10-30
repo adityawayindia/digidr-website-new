@@ -15,7 +15,7 @@
     "width": 500,
     "height": 136,
     "modified": false,
-    "file": "assets/brand/digidr-logo.png"
+    "file": "assets/brand/digidr_logo.png"
   },
   "favicon": {
     "source_url": "https://digidr.app/favicon/favicon.ico",
@@ -25,7 +25,7 @@
     "width": 48,
     "height": 48,
     "modified": false,
-    "file": "assets/brand/favicon.ico"
+    "file": "assets/brand/digidr_favicon.png"
   },
   "display_treatment": {
     "name": "Framed emblem",
