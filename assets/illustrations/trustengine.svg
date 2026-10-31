@@ -6,7 +6,7 @@
   <title id="trustengine-title">A shield with a green check representing reviewed and governed information</title>
   <desc id="trustengine-description">DigiDr flat vector illustration, using the Lucide ShieldCheck icon. The navy artwork is centred at 75 percent of the square, including its rounded stroke.</desc>
   <rect x="-2.23958333" y="-2.23958333" width="28.47916667" height="28.47916667" fill="#cae7df" aria-hidden="true"/>
-  <g id="trustengine-artwork" fill="none" stroke="#191b3d" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+  <g id="trustengine-artwork" fill="none" stroke="#263746" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
     <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
     <path d="m9 12 2 2 4-4" stroke="#267a60"/>
   </g>

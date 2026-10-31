@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="460" viewBox="0 0 360 460">
-<rect width="360" height="460" fill="#111318"/>
+<rect width="360" height="460" fill="#263746"/>
 
-<rect width="360" height="460" rx="28" fill="#111318"/>
-<circle cx="180" cy="165" r="78" fill="#FF8B4A" opacity=".16"/>
+<rect width="360" height="460" rx="28" fill="#263746"/>
+<circle cx="180" cy="165" r="78" fill="#FFC72C" opacity=".16"/>
 <circle cx="180" cy="148" r="54" fill="none" stroke="#fff" stroke-width="7"/>
 <path d="M90 390c12-86 62-132 90-132s78 46 90 132" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
-<text x="180" y="430" text-anchor="middle" fill="#FF8B4A" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">VS</text>
+<text x="180" y="430" text-anchor="middle" fill="#FFC72C" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">VS</text>
 
 </svg>

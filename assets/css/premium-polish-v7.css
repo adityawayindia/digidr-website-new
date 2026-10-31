@@ -29,7 +29,7 @@ body.premium-v7.premium-v6.premium-v5 .v7-product-link {
   min-height:44px;
   margin-top:auto;
   padding:10px 0;
-  color:var(--yellow,#ffe524);
+  color:var(--yellow,#FFC72C);
   font-size:13px;
   font-weight:650;
   line-height:1.5;
@@ -41,7 +41,7 @@ body.premium-v7.premium-v6.premium-v5 .v7-product-link:hover {
   text-decoration:underline;
 }
 body.premium-v7.premium-v6.premium-v5 .v7-product-link:focus-visible {
-  outline:2px solid var(--yellow,#ffe524);
+  outline:2px solid var(--yellow,#FFC72C);
   outline-offset:4px;
 }
 

@@ -2,7 +2,7 @@
 .premium-v11 .v13-hero{
   padding:clamp(46px,4.5vw,84px) 0 clamp(54px,5vw,92px);
   min-height:0;
-  background:#08090c;
+  background:#08090C;
 }
 .premium-v11 .v13-hero-layout{
   width:min(1760px,calc(100% - clamp(48px,6vw,112px)));
@@ -38,9 +38,9 @@
   font-size:clamp(14px,1.1vw,18px);font-weight:650;line-height:1.35;
   letter-spacing:-.025em;text-decoration:none;transition:background .18s,border-color .18s;
 }
-.premium-v11 .v13-hero-primary{background:#ffe524;color:#08090c}
-.premium-v11 .v13-hero-primary:hover{background:#ffed71}
-.premium-v11 .v13-hero-secondary{background:transparent;border-color:#656a78;color:#faf9f5}
+.premium-v11 .v13-hero-primary{background:#FFC72C;color:#263746}
+.premium-v11 .v13-hero-primary:hover{background:#FFD764}
+.premium-v11 .v13-hero-secondary{background:transparent;border-color:#656a78;color:#FFFFFF}
 .premium-v11 .v13-hero-secondary:hover{background:#ffffff0a;border-color:#d7dae1}
 .premium-v11 .v13-hero-button:focus-visible{outline:3px solid #fff;outline-offset:4px}
 .premium-v11 .v13-hero-promise{
@@ -57,7 +57,7 @@
 .premium-v11 .v13-hero .compare .after-label{right:24px}
 .premium-v11 .v13-hero .compare .divider{width:2px;background:#f7f7f5}
 .premium-v11 .v13-hero .compare .handle{
-  width:44px;height:44px;background:#fff;color:#08090c;
+  width:44px;height:44px;background:#fff;color:#263746;
   border:1px solid #e4e5e9;box-shadow:0 2px 12px #0002;font-size:23px;
 }
 .premium-v11 .v13-hero .v8-walk-track{height:70px}

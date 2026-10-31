@@ -102,7 +102,7 @@
       size:compact ? 20 : 27
     }));
     const particles = [];
-    const colors = ['#ffe524','#fff5a8','#f5f3ee'];
+    const colors = ['#FFC72C','#fff5a8','#f5f3ee'];
     rockets.forEach((rocket, index) => {
       const count = compact ? 23 : 35;
       for (let i = 0; i < count; i++) {
@@ -154,7 +154,7 @@
     context.rotate(-.08);
     context.scale(size / 24, size / 24);
     context.globalAlpha = Math.min(1, progress * 6) * Math.min(1, (1 - progress) * 9) * .83;
-    context.strokeStyle = '#ffe524';
+    context.strokeStyle = '#FFC72C';
     context.lineWidth = 1.4;
     context.lineJoin = 'round';
     context.lineCap = 'round';

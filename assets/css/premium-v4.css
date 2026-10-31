@@ -19,7 +19,7 @@
 .premium-v4 .page-hero-art.v4-photo-art{padding:0;aspect-ratio:1.15;border-color:#4c5660}
 .premium-v4 .page-hero-art.v4-photo-art>img{aspect-ratio:auto;max-height:none}
 .premium-v4 .v3-workspace-art.v4-photo-art img{width:100%;height:100%;object-fit:cover}
-.premium-v4 .photo-credit-card.v4-photo-art{background:#14161b!important}
+.premium-v4 .photo-credit-card.v4-photo-art{background:#2F4456!important}
 .premium-v4 .photo-credit-card.v4-photo-art>img{height:auto;aspect-ratio:1;object-fit:cover}
 
 /* Article photographs receive an actual image frame, without the old black mat. */
@@ -45,17 +45,17 @@
 .premium-v4 .product-preview-card p{color:#4c5a59;font-size:14px;line-height:1.7;margin:0;max-width:280px}
 .premium-v4 .product-preview-source{font-size:12px;line-height:1.7;color:#aebbc8;margin:18px 0 0}
 .premium-v4 .product-preview-source a{color:#dce4eb;text-underline-offset:3px}
-.premium-v4 .product-preview-source a:focus-visible{outline:2px solid #ffe524;outline-offset:5px}
+.premium-v4 .product-preview-source a:focus-visible{outline:2px solid #FFC72C;outline-offset:5px}
 .premium-v4 .official-credits{padding-top:0}
 .premium-v4 .official-credits h2{font-size:clamp(32px,4vw,48px);letter-spacing:-.045em;line-height:1.12;margin:15px 0 20px}
 .premium-v4 .official-credits-lead{color:#bdc8d4;font-size:16px;line-height:1.8;max-width:780px;margin:0 0 32px}
 .premium-v4 .official-credit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
-.premium-v4 .official-credit-card{border:1px solid #3a4551;border-radius:18px;overflow:hidden;background:#14161b}
+.premium-v4 .official-credit-card{border:1px solid #3a4551;border-radius:18px;overflow:hidden;background:#2F4456}
 .premium-v4 .official-credit-media{height:320px;padding:24px 24px 0;background:#edf2f0}
 .premium-v4 .official-credit-media img{display:block;width:100%;height:100%;object-fit:contain;object-position:center bottom}
 .premium-v4 .official-credit-card>div:last-child{padding:22px}
 .premium-v4 .official-credit-card h3{font-size:18px;line-height:1.35;margin:0 0 12px;letter-spacing:-.025em}
-.premium-v4 .official-credit-card a{font-size:12px;line-height:1.65;color:#ffe524;text-underline-offset:3px}
+.premium-v4 .official-credit-card a{font-size:12px;line-height:1.65;color:#FFC72C;text-underline-offset:3px}
 @media(max-width:1000px){
   .premium-v4 .product-preview-stage{gap:24px;padding:28px 24px 26px}
   .premium-v4 .product-preview-media{height:320px}

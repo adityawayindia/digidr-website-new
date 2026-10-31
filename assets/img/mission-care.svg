@@ -2,13 +2,13 @@
 <rect width="760" height="470" fill="#fffdf8"/>
 
 <rect width="760" height="470" rx="30" fill="#fffdf8"/>
-<circle cx="500" cy="166" r="92" fill="#FFE524" opacity=".14"/>
+<circle cx="500" cy="166" r="92" fill="#FFC72C" opacity=".14"/>
 
-<g stroke="#111318" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g stroke="#263746" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
 <circle cx="145" cy="330" r="28"/>
 <path d="M145 358v58m0 0l-24 38m24-38l33 38m-33-38l-34-18m34 18l36-18"/>
 </g>
-<g stroke="#111318" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g stroke="#263746" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
   <rect x="260" y="95" width="260" height="120" rx="20"/>
   <circle cx="302" cy="142" r="14"/>
   <path d="M335 128h141M335 160h125"/>
@@ -18,7 +18,7 @@
   <path d="M180 326c60-70 101-111 151-151"/>
   <path d="M185 338c72 7 124 25 164 44"/>
 </g>
-<path d="M510 102l24 24 48-62" fill="none" stroke="#FFE524" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="42" y="58" fill="#FFE524" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">BETTER INFORMED CARE</text>
+<path d="M510 102l24 24 48-62" fill="none" stroke="#FFC72C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="42" y="58" fill="#FFC72C" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">BETTER INFORMED CARE</text>
 
 </svg>

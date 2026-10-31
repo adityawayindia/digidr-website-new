@@ -2,22 +2,22 @@
 body .v9-product-hero .page-hero-inner{grid-template-columns:minmax(0,1.45fr) minmax(290px,.75fr);gap:clamp(32px,4.5vw,72px);align-items:center}
 body .v9-product-hero h1{font-size:clamp(44px,4.6vw,68px);line-height:1.055;letter-spacing:-.055em;max-width:840px}
 body .v9-product-hero .page-hero-inner>div>p{font-size:18px;line-height:1.65;max-width:690px}
-body .v9-product-hero .v9-product-process-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;margin-top:24px;font-size:15px;font-weight:600;color:#ffe524;text-underline-offset:6px}
+body .v9-product-hero .v9-product-process-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;margin-top:24px;font-size:15px;font-weight:600;color:#FFC72C;text-underline-offset:6px}
 body .v9-product-preview{box-sizing:border-box;justify-self:end;width:100%;max-width:375px;padding:24px;border:1px solid #d9ddd8;border-radius:16px;background:#f4f5ef;color:#15191e;box-shadow:none;min-width:0;color-scheme:light}
 body .v9-preview-top,body .v9-artifact-top{display:flex;gap:10px;align-items:center;color:#59616a;font-size:11px;line-height:1.4;font-weight:600}
 body .v9-product-icon{display:inline-flex;flex:none;align-items:center;justify-content:center;width:24px;height:24px;aspect-ratio:1;padding:0;margin:0;background:transparent;border:0}
 body .v9-product-icon>img{display:block;width:100%;height:100%;aspect-ratio:1;object-fit:contain;filter:none;transform:none}
 body .v9-illustrative{display:inline-block;color:#66705f;font-size:10px;line-height:1.4;font-weight:500;white-space:nowrap}
 body .v9-preview-top .v9-illustrative{margin-left:auto}
-body .v9-product-preview h2{font-size:27px;line-height:1.14;letter-spacing:-.045em;font-weight:600;color:#171b20;margin:28px 0 23px;max-width:290px}
+body .v9-product-preview h2{font-size:27px;line-height:1.14;letter-spacing:-.045em;font-weight:600;color:#2F4456;margin:28px 0 23px;max-width:290px}
 body .v9-preview-rows{margin:0;border-top:1px solid #d5dcd3}
 body .v9-preview-rows>div{display:grid;grid-template-columns:minmax(0,1fr);gap:5px;padding:12px 0;border-bottom:1px solid #d5dcd3;min-width:0}
 body .v9-preview-rows dt{font-size:11px;line-height:1.5;font-weight:500;color:#59616a}
-body .v9-preview-rows dd{font-size:14px;line-height:1.45;font-weight:550;color:#171b20;margin:0}
+body .v9-preview-rows dd{font-size:14px;line-height:1.45;font-weight:550;color:#2F4456;margin:0}
 body .v9-product-preview .v9-preview-note{display:flex;align-items:flex-start;gap:8px;margin:18px 0 0;padding:0;color:#465045;font-size:11px;line-height:1.5}
 body .v9-preview-note>span{display:block;flex:none;width:6px;height:6px;border-radius:50%;background:#66662a;margin-top:5px}
 
-body .v9-product-workflow{border-block:1px solid #ffffff13;background:#101216}
+body .v9-product-workflow{border-block:1px solid #ffffff13;background:#1D2B38}
 body .v9-workflow-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:30px;max-width:1050px}
 body .v9-workflow-heading>div{min-width:0}
 body .v9-workflow-heading>.v9-product-icon{width:32px;height:32px;flex:none;margin-top:31px}
@@ -35,15 +35,15 @@ body .v9-flow-stages{display:grid;grid-template-columns:repeat(var(--flow-count)
 body .v9-flow-stage{position:relative;min-width:0;margin:0;padding:0 9px}
 body .v9-flow-stage>button{position:relative;display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;min-height:95px;padding:0 3px 12px;border:0;border-radius:6px;color:#c3cbd5;background:none;text-align:center;font:550 15px/1.4 "Geist",Arial,sans-serif;cursor:pointer;isolation:isolate}
 body .v9-flow-stage>button:disabled{cursor:default}
-body .v9-flow-number{display:grid;place-items:center;position:relative;z-index:2;width:38px;height:38px;flex:none;border:1px solid #626b73;border-radius:50%;background:#101216;color:#bdc5cd;font-family:"Geist Mono",monospace;font-size:11px;line-height:1}
-body .v9-flow-stage.is-selected .v9-flow-number{color:#111318;background:#ffe524;border-color:#ffe524}
+body .v9-flow-number{display:grid;place-items:center;position:relative;z-index:2;width:38px;height:38px;flex:none;border:1px solid #626b73;border-radius:50%;background:#1D2B38;color:#bdc5cd;font-family:"Geist Mono",monospace;font-size:11px;line-height:1}
+body .v9-flow-stage.is-selected .v9-flow-number{color:#263746;background:#FFC72C;border-color:#FFC72C}
 body .v9-flow-stage.is-selected>button{color:#fff}
-body .v9-flow-stage>button:hover .v9-flow-number{border-color:#ffe524}
+body .v9-flow-stage>button:hover .v9-flow-number{border-color:#FFC72C}
 body .v9-flow-connector{position:absolute;z-index:1;top:18px;left:calc(50% + 25px);width:calc(100% - 50px);height:1px;background:#58616c;pointer-events:none}
 body .v9-flow-connector::after{content:"";position:absolute;right:0;top:-3px;width:6px;height:6px;border-top:1px solid #89939d;border-right:1px solid #89939d;transform:rotate(45deg)}
 body .v9-flow-stage:last-child>.v9-flow-connector{display:none}
-body .v9-flow-stage.is-travelling .v9-flow-number{border-color:#ffe524;box-shadow:0 0 0 4px #ffe52412;color:#ffe524;background:#20221a}
-body .v9-flow-stage.is-travelling>.v9-flow-connector::before{content:"";position:absolute;top:-2px;left:0;width:5px;height:5px;border-radius:50%;background:#ffe524;animation:v9-flow-travel .62s linear both}
+body .v9-flow-stage.is-travelling .v9-flow-number{border-color:#FFC72C;box-shadow:0 0 0 4px #FFC72C12;color:#FFC72C;background:#20221a}
+body .v9-flow-stage.is-travelling>.v9-flow-connector::before{content:"";position:absolute;top:-2px;left:0;width:5px;height:5px;border-radius:50%;background:#FFC72C;animation:v9-flow-travel .62s linear both}
 @keyframes v9-flow-travel{from{left:0}to{left:100%}}
 body .v9-flow-panels{border-top:1px solid #373f49;padding-top:35px}
 body .v9-flow-panel{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:clamp(28px,5vw,75px);align-items:start;padding:0;scroll-margin-top:130px}
@@ -72,18 +72,18 @@ body .v9-decision-heading .v9-illustrative{color:#a2adb9;margin-top:5px}
 body .v9-decision-heading h3{margin:0;color:#f5f6f8;font-size:26px;font-weight:550;line-height:1.25;letter-spacing:-.03em}
 body .v9-decision-cases{display:flex;flex-wrap:wrap;gap:8px;margin:21px 0 0}
 body .v9-decision-cases button{padding:11px 15px;border:1px solid #4b545e;border-radius:999px;color:#c6cdd6;background:transparent;font:500 13px/1.5 "Geist",Arial,sans-serif;cursor:pointer;min-height:44px}
-body .v9-decision-cases button[aria-pressed="true"]{color:#111318;background:#ffe524;border-color:#ffe524}
+body .v9-decision-cases button[aria-pressed="true"]{color:#263746;background:#FFC72C;border-color:#FFC72C}
 body .v9-decision-cases button:disabled{cursor:default}
 body .v9-decision-branches{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:18px;padding-top:36px}
 body .v9-decision-branches::before{content:"";position:absolute;top:15px;left:12.5%;right:12.5%;height:1px;background:#58616c}
 body .v9-decision-branches::after{content:"";position:absolute;top:0;left:50%;height:15px;width:1px;background:#58616c}
-body .v9-decision-outcome{position:relative;padding:19px 17px;border:1px solid #424c57;border-radius:11px;background:#171b21;min-width:0}
+body .v9-decision-outcome{position:relative;padding:19px 17px;border:1px solid #424c57;border-radius:11px;background:#2F4456;min-width:0}
 body .v9-decision-outcome::before{content:"";position:absolute;left:50%;top:-22px;height:21px;width:1px;background:#58616c}
 body .v9-decision-outcome strong{display:block;font-size:15px;font-weight:600;line-height:1.4;color:#e9edf0}
 body .v9-decision-outcome p{font-size:12px;line-height:1.6;color:#aeb8c3;margin:9px 0 0}
 body .v9-decision-outcome.is-outcome{background:#22231b;border-color:#b8a538}
-body .v9-decision-outcome.is-outcome strong{color:#ffe524}
-body .v9-decision-outcome.is-outcome::before{background:#ffe524}
+body .v9-decision-outcome.is-outcome strong{color:#FFC72C}
+body .v9-decision-outcome.is-outcome::before{background:#FFC72C}
 body .v9-decision-result{margin-top:18px;padding:18px 0 0;color:#f3f4f6}
 body .v9-decision-result>strong{font-size:16px;font-weight:600;line-height:1.5}
 body .v9-decision-result>p{margin:8px 0 0;color:#bac3cd;font-size:14px;line-height:1.7;max-width:860px}

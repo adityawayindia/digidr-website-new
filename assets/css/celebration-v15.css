@@ -25,9 +25,9 @@
   gap:8px;
   min-height:44px;
   padding:9px 13px;
-  border:1px solid #ffe52440;
+  border:1px solid #FFC72C40;
   border-radius:7px;
-  color:#ffe524;
+  color:#FFC72C;
   background:#0b0c0fe8;
   font:inherit;
   font-size:12px;
@@ -37,11 +37,11 @@
   touch-action:manipulation;
 }
 [data-celebration-toggle]:hover:not(:disabled) {
-  border-color:#ffe52490;
+  border-color:#FFC72C90;
   background:#202015;
 }
 [data-celebration-toggle]:focus-visible {
-  outline:2px solid #ffe524;
+  outline:2px solid #FFC72C;
   outline-offset:3px;
 }
 [data-celebration-toggle]:disabled {
@@ -55,4 +55,12 @@
 }
 @media(prefers-reduced-motion:reduce) {
   [data-celebration] > [data-celebration-canvas] {visibility:hidden;}
+}
+
+/* Brand color filter: #FFC72C tint over the logo */
+body .logo{position:relative}
+body .logo:has(.official-brand-logo)::after{
+  content:"";position:absolute;inset:5px 0;background:#FFC72C;pointer-events:none;
+  -webkit-mask:url(../brand/digidr_logo.png) center/contain no-repeat;
+  mask:url(../brand/digidr_logo.png) center/contain no-repeat;
 }

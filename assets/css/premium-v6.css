@@ -12,7 +12,7 @@ body.premium-v6.premium-v5 .v6-card::before {display:none}
 body.premium-v6.premium-v5 .v6-card:hover {transform:none;box-shadow:none;border-color:#69716e}
 body.premium-v6.premium-v5 .v6-card h3 {font-size:25px;line-height:1.22;letter-spacing:-.035em;margin:0 0 12px;color:var(--v6-text);overflow-wrap:break-word}
 body.premium-v6.premium-v5 .v6-card p {font-size:15px;line-height:1.65;color:var(--v6-muted)!important}
-body.premium-v6.premium-v5 .v6-card .card-link {font-size:13px;font-weight:550;line-height:1.5;color:#ffe524;margin-top:24px}
+body.premium-v6.premium-v5 .v6-card .card-link {font-size:13px;font-weight:550;line-height:1.5;color:#FFC72C;margin-top:24px}
 body.premium-v6.premium-v5 .v6-card .card-body {padding:0;min-width:0}
 body.premium-v6.premium-v5 .v6-card .yellow-pill {display:inline-block;margin:0 0 16px;padding:0;background:transparent;border:0;border-radius:0;color:#e9d94f;font-size:11px;font-weight:550;line-height:1.5;letter-spacing:.07em}
 body.premium-v6.premium-v5 .v6-card .capabilities {margin-top:18px;gap:6px}
@@ -61,7 +61,7 @@ body.premium-v6.premium-v5 .v6-bento-small .card-link {margin-top:18px}
 
 /* Editorial tile: a short, quiet graphic strip with readable paper below. */
 body.premium-v6.premium-v5 .v6-editorial {
-  --v6-surface:#f0f0eb;--v6-border:#d9dcd6;--v6-text:#191d24;--v6-muted:#535e6b;
+  --v6-surface:#f0f0eb;--v6-border:#d9dcd6;--v6-text:#2F4456;--v6-muted:#535e6b;
   display:flex;flex-direction:column;padding:18px;border-radius:17px;
   background:var(--v6-surface);color:var(--v6-text);text-decoration:none;color-scheme:light;
 }
@@ -77,7 +77,7 @@ body.premium-v6.premium-v5 .v6-editorial:nth-child(3n) .v6-editorial-media {back
 body.premium-v6.premium-v5 .v6-card.v6-editorial .v6-editorial-media>img {width:44px;height:44px;max-width:44px;max-height:44px}
 body.premium-v6.premium-v5 .v6-editorial .content-card-body,
 body.premium-v6.premium-v5 .v6-editorial .research-body {display:flex;flex-direction:column;min-width:0;flex:1;padding:0 2px 4px}
-body.premium-v6.premium-v5 .v6-editorial h3 {font-size:23px;line-height:1.26;margin:13px 0 11px;color:#191d24}
+body.premium-v6.premium-v5 .v6-editorial h3 {font-size:23px;line-height:1.26;margin:13px 0 11px;color:#2F4456}
 body.premium-v6.premium-v5 .v6-editorial p {font-size:14px;color:#535e6b!important;line-height:1.65}
 body.premium-v6.premium-v5 .v6-editorial .content-type,
 body.premium-v6.premium-v5 .v6-editorial .research-meta {color:#596570;font-size:11px;line-height:1.6;letter-spacing:.06em}
@@ -128,12 +128,12 @@ body.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list strong {font-siz
 body.premium-v6.premium-v5 .v6-dashboard .doctor-dashboard-list p {font-size:12px;line-height:1.7;margin:7px 0 0}
 
 /* The education example keeps its original words, with a compact header. */
-body.premium-v6.premium-v5 .doctor-content-card.v6-content-note {display:grid;grid-template-columns:minmax(0,1fr) 56px;gap:24px 18px;min-height:0;padding:30px;background:#171b22;border-color:#3d4652;color:#eef1f5}
+body.premium-v6.premium-v5 .doctor-content-card.v6-content-note {display:grid;grid-template-columns:minmax(0,1fr) 56px;gap:24px 18px;min-height:0;padding:30px;background:#2F4456;border-color:#3d4652;color:#eef1f5}
 body.premium-v6.premium-v5 .v6-content-note::after {display:none}
 body.premium-v6.premium-v5 .v6-content-note>.v6-retained-art {grid-row:1;grid-column:2;width:56px;height:56px;margin:0;border-radius:11px}
 body.premium-v6.premium-v5 .v6-content-note>.doctor-content-card-top {grid-column:1;align-content:start;flex-wrap:wrap;gap:8px;font-size:11px;line-height:1.5}
 body.premium-v6.premium-v5 .v6-content-note .doctor-content-card-top .doctor-sample-label {margin-left:0;background:#232932;color:#cbd3dd;border-color:#4a5664}
-body.premium-v6.premium-v5 .v6-content-note .doctor-content-dot {background:#ffe524}
+body.premium-v6.premium-v5 .v6-content-note .doctor-content-dot {background:#FFC72C}
 body.premium-v6.premium-v5 .v6-content-note>h3 {grid-column:1/-1;font-size:38px;line-height:1.12;letter-spacing:-.045em;margin:0}
 body.premium-v6.premium-v5 .v6-content-note>h3 em {color:#f2e891}
 body.premium-v6.premium-v5 .v6-content-note>p {grid-column:1/-1;margin:0;max-width:380px;font-size:14px}

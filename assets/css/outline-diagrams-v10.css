@@ -13,7 +13,7 @@ body.premium-v10 {
   --diagram-rule: #49515b;
   --diagram-copy: #c7ced6;
   --diagram-muted: #b0bac6;
-  --diagram-accent: #ffe524;
+  --diagram-accent: #FFC72C;
 }
 
 /* Shared product architecture: three products, one visible foundation. */
@@ -77,7 +77,7 @@ body.premium-v10 .v9-flow-bridge {
 
 body.premium-v10 .v9-flow-bridge > b {
   color: var(--diagram-line);
-  background: #08090b;
+  background: #263746;
 }
 
 body.premium-v10 .v9-shared-intelligence {
@@ -145,12 +145,12 @@ body.premium-v10 .v9-architecture.is-flowing .v9-assist-result {
 
 @keyframes v10-engine-outline {
   0%, 100% { border-color: #9ba3ac; }
-  45%, 70% { border-color: #ffe524; }
+  45%, 70% { border-color: #FFC72C; }
 }
 
 @keyframes v10-result-outline {
   0%, 100% { border-color: #9ba3ac; }
-  50% { border-color: #ffe524; }
+  50% { border-color: #FFC72C; }
 }
 
 /* Context selection: connected sources stay separate from excluded sources. */
@@ -564,7 +564,7 @@ body.premium-v10 .v9-policy-diagram.is-tracing .v9-policy-flow li {
 
 @keyframes v10-policy-outline {
   0%, 100% { border-color: #9ba3ac; }
-  45% { border-color: #ffe524; }
+  45% { border-color: #FFC72C; }
 }
 
 /* Small retained homepage demos follow the same outlined visual grammar. */

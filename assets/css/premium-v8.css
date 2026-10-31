@@ -23,17 +23,17 @@ body.premium-v8 .nav-dropdown>summary{
 }
 body.premium-v8 .nav-links>a{padding-block:12px}
 body.premium-v8 .nav-links>a[aria-current],
-body.premium-v8 .nav-dropdown[data-current=true]>summary{color:#ffe524}
+body.premium-v8 .nav-dropdown[data-current=true]>summary{color:#FFC72C}
 body.premium-v8 .nav-links>a[aria-current]::after,
 body.premium-v8 .nav-dropdown[data-current=true]>summary::after{
   content:"";position:absolute;left:0;right:0;bottom:4px;height:2px;
   background:currentColor;border-radius:2px;
 }
 body.premium-v8 .nav-links>.nav-doctors-featured{
-  color:#ffe524;background:#ffe5240b;border:1px solid #ffe52454;
+  color:#FFC72C;background:#FFC72C0b;border:1px solid #FFC72C54;
   border-radius:99px;padding:10px 16px;
 }
-body.premium-v8 .nav-links>.nav-doctors-featured:hover{background:#ffe52419;border-color:#ffe524a6}
+body.premium-v8 .nav-links>.nav-doctors-featured:hover{background:#FFC72C19;border-color:#FFC72Ca6}
 body.premium-v8 .nav-links>.nav-doctors-featured[aria-current]::after{left:16px;right:16px;bottom:5px}
 body.premium-v8 .nav-signin{font-size:13px;font-weight:550;color:#d7dce4}
 body.premium-v8 .nav-start{font-size:13px;font-weight:710;padding:13px 19px}

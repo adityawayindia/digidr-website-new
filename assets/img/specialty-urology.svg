@@ -2,13 +2,13 @@
 <rect width="720" height="480" fill="#fffdf8"/>
 
 <rect width="720" height="480" rx="28" fill="#fffdf8"/>
-<circle cx="575" cy="105" r="95" fill="#16B89B" opacity=".13"/>
+<circle cx="575" cy="105" r="95" fill="#FFC72C" opacity=".13"/>
 
-<g stroke="#111318" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g stroke="#263746" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
 <circle cx="150" cy="310" r="28"/>
 <path d="M150 338v58m0 0l-24 38m24-38l33 38m-33-38l-34-18m34 18l36-18"/>
 </g>
-<g stroke="#111318" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g stroke="#263746" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
 <rect x="255" y="90" width="270" height="125" rx="22"/>
 <circle cx="297" cy="136" r="14"/>
 <path d="M330 124h140M330 156h100"/>
@@ -17,6 +17,6 @@
 <path d="M420 296h120M420 327h87"/>
 <path d="M165 310c54-63 91-98 134-131"/>
 </g>
-<text x="42" y="54" fill="#16B89B" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">UROLOGY</text>
+<text x="42" y="54" fill="#FFC72C" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">UROLOGY</text>
 
 </svg>
