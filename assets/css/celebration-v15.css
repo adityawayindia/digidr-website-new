@@ -57,10 +57,11 @@
   [data-celebration] > [data-celebration-canvas] {visibility:hidden;}
 }
 
-/* Brand color filter: #FFC72C tint over the logo */
-body .logo{position:relative}
-body .logo:has(.official-brand-logo)::after{
-  content:"";position:absolute;inset:5px 0;background:#FFC72C;pointer-events:none;
-  -webkit-mask:url(../brand/digidr_logo.png) center/contain no-repeat;
-  mask:url(../brand/digidr_logo.png) center/contain no-repeat;
+/* Sign in: outlined button so it stands out beside the yellow Get started */
+body.premium-v9 .nav-actions>.nav-signin{
+  padding:0 20px;min-height:46px;font-size:15px;font-weight:650;color:#fff;
+  border:1.5px solid #fff;border-radius:999px;background:transparent;
+  transition:background .2s,color .2s,border-color .2s;
 }
+body.premium-v9 .nav-actions>.nav-signin:hover,
+body.premium-v9 .nav-actions>.nav-signin:focus-visible{background:#fff;color:#08090C}

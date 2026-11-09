@@ -10,11 +10,11 @@
 .doctor-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 .doctor-button{display:inline-flex;min-height:50px;align-items:center;justify-content:center;gap:22px;padding:14px 21px;border:1px solid transparent;border-radius:99px;text-decoration:none;font-size:14px;font-weight:650;line-height:1.4;transition:transform .18s,background .18s}
 .doctor-button:hover{transform:translateY(-2px)}
-.doctor-button.is-dark{background:#263746;color:#fff}
+.doctor-button.is-dark{background:#08090C;color:#fff}
 .doctor-button.is-dark:hover{background:#303329}
-.doctor-button.is-outline{background:transparent;border-color:#c9c9bf;color:#263746}
+.doctor-button.is-outline{background:transparent;border-color:#c9c9bf;color:#08090C}
 .doctor-button.is-outline:hover{background:#fff}
-.doctor-button:focus-visible,.doctor-device-switch button:focus-visible,.doctor-billing-toggle button:focus-visible,.doctor-section-nav a:focus-visible{outline:3px solid #263746;outline-offset:4px}
+.doctor-button:focus-visible,.doctor-device-switch button:focus-visible,.doctor-billing-toggle button:focus-visible,.doctor-section-nav a:focus-visible{outline:3px solid #08090C;outline-offset:4px}
 .doctor-hero-notes{display:flex;gap:7px 18px;flex-wrap:wrap;margin-top:24px;font-size:11px;color:#555d59;line-height:1.7}
 .doctor-hero-notes span::before{content:'✓';margin-right:6px;color:#232a23}
 .doctor-hero-stage{position:relative;min-width:0;padding:30px 0 45px}
@@ -54,9 +54,9 @@
 .doctor-section-nav{position:sticky;top:var(--site-header-height,68px);z-index:40;border-bottom:1px solid #d9ddd1;background:#FFFFFFf5;backdrop-filter:blur(14px)}
 .doctor-section-nav>.doctor-wrap{display:flex;gap:27px;align-items:center;overflow:auto;scrollbar-width:thin;min-height:62px}
 .doctor-section-nav a{color:#565d56;white-space:nowrap;text-decoration:none;font-size:12px;font-weight:550;padding:20px 0;position:relative}
-.doctor-section-nav a:hover,.doctor-section-nav a[aria-current="location"]{color:#263746}
-.doctor-section-nav a[aria-current="location"]::after{content:'';height:2px;position:absolute;inset:auto 0 10px;background:#263746}
-.doctor-section-nav .doctor-section-cta{margin-left:auto;font-weight:700;color:#263746}
+.doctor-section-nav a:hover,.doctor-section-nav a[aria-current="location"]{color:#08090C}
+.doctor-section-nav a[aria-current="location"]::after{content:'';height:2px;position:absolute;inset:auto 0 10px;background:#08090C}
+.doctor-section-nav .doctor-section-cta{margin-left:auto;font-weight:700;color:#08090C}
 .doctor-section{padding:96px 0;scroll-margin-top:145px}
 .doctor-section-heading{display:grid;grid-template-columns:1.3fr 1fr;gap:60px;align-items:end;margin-bottom:44px}
 .doctor-section h2{font-size:clamp(36px,4.2vw,56px);font-weight:510;line-height:1.06;letter-spacing:-.055em;margin:0 0 22px}
@@ -192,7 +192,7 @@
 .doctor-comparison>summary{display:flex;align-items:center;justify-content:space-between;gap:15px;cursor:pointer;padding:23px 25px;font-size:16px;font-weight:550;list-style:none}
 .doctor-comparison>summary::-webkit-details-marker{display:none}.doctor-comparison>summary>span{font-size:24px;font-weight:400}.doctor-comparison[open]>summary>span{transform:rotate(45deg)}
 .doctor-table-scroll{overflow:auto;scrollbar-width:thin;border-top:1px solid #d9e1cd}
-.doctor-table-scroll:focus-visible{outline:3px solid #263746;outline-offset:-3px}
+.doctor-table-scroll:focus-visible{outline:3px solid #08090C;outline-offset:-3px}
 .doctor-comparison table{border-collapse:collapse;width:100%;min-width:850px;font-size:12px;line-height:1.6}
 .doctor-comparison caption{text-align:left;font-size:11px;padding:16px 22px;color:#5d6e4f;background:#f3f6ec}
 .doctor-comparison th,.doctor-comparison td{padding:17px 20px;border-bottom:1px solid #dce2d4;text-align:left;width:19%}
@@ -211,7 +211,7 @@
 .doctor-faq summary>span{font-size:24px;font-weight:300;line-height:1;flex:0 0 auto}
 .doctor-faq[open] summary>span{transform:rotate(45deg)}
 .doctor-faq>div>p{font-size:14px;line-height:1.9;color:#58664e;margin:0 0 25px}
-.doctor-faq summary:focus-visible,.doctor-comparison>summary:focus-visible{outline:3px solid #263746;outline-offset:4px}
+.doctor-faq summary:focus-visible,.doctor-comparison>summary:focus-visible{outline:3px solid #08090C;outline-offset:4px}
 .doctor-start-section{background:#e6ebad}
 .doctor-start-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:100px;align-items:center}
 .doctor-start-grid h2{font-size:clamp(42px,4.9vw,66px);margin:0 0 25px;line-height:1.03}

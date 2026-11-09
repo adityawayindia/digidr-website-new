@@ -71,12 +71,12 @@
 }
 .v9-compare-cue {
   position:absolute;top:2px;left:0;width:132px;padding:6px 9px;
-  border:1px solid #555b65;border-radius:8px;background:#2F4456;color:#f4f5f7;
+  border:1px solid #555b65;border-radius:8px;background:#14161B;color:#f4f5f7;
   font-size:12px;font-weight:550;line-height:1.25;text-align:center;
 }
 .v9-compare-cue::after {
   content:"";position:absolute;bottom:-4px;left:calc(50% - 4px);width:6px;height:6px;
-  background:#2F4456;border-bottom:1px solid #555b65;border-right:1px solid #555b65;
+  background:#14161B;border-bottom:1px solid #555b65;border-right:1px solid #555b65;
   transform:rotate(45deg);
 }
 .v9-compare-cue[hidden] { display:none!important; }
@@ -133,7 +133,7 @@
 .v9-workspace-caption .doctor-orbit-label { margin:0;font-size:11px; }
 .v9-pendulum-pause {
   flex:0 0 auto;border:1px solid #ffffff28;border-radius:7px;padding:9px 12px;min-height:40px;
-  color:#f0f1f4;background:#263746;font:inherit;font-size:12px;font-weight:550;cursor:pointer;
+  color:#f0f1f4;background:#08090C;font:inherit;font-size:12px;font-weight:550;cursor:pointer;
 }
 .v9-pendulum-pause:hover:not(:disabled) { color:#FFC72C;border-color:#FFC72C70; }
 .v9-pendulum-pause:disabled { color:#a0a7b3;background:transparent;border-color:transparent;cursor:default; }

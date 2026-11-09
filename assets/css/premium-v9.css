@@ -3,11 +3,11 @@ body.premium-v9 .logo {
   --brand-width:170px;
   position:relative;display:inline-flex;align-items:center;flex:0 0 auto;
   width:var(--brand-width);max-width:100%;padding:5px 0;
-  border:0;border-radius:0;background:#263746;line-height:1;
+  border:0;border-radius:0;background:#08090C;line-height:1;
 }
 body.premium-v9 .official-brand-logo {
   display:block;width:var(--brand-width);max-width:100%;height:auto;
-  aspect-ratio:1394/285;object-fit:contain;object-position:center;
+  aspect-ratio:1600/337;object-fit:contain;object-position:center;
   filter:none;transform:none;
 }
 body.premium-v9 .brand-filter-definitions {position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}
@@ -60,7 +60,7 @@ body.premium-v9 .v9-policy-foot {display:flex;align-items:flex-start;justify-con
 body.premium-v9 .v9-policy-foot p {font-size:15px;line-height:1.6;color:#d7dce5;margin:0;max-width:800px}
 body.premium-v9 .v9-policy-controls {display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
 body.premium-v9 .v9-policy-controls button,.premium-v9 .v9-policy-replay {min-height:44px;border-radius:999px;border:1px solid #58616e;background:transparent;color:#eef0f5;padding:10px 17px;font-family:inherit;font-size:14px;font-weight:600;line-height:1.4;cursor:pointer}
-body.premium-v9 .v9-policy-controls button[aria-pressed=true] {background:#FFC72C;color:#263746;border-color:#FFC72C}
+body.premium-v9 .v9-policy-controls button[aria-pressed=true] {background:#FFC72C;color:#08090C;border-color:#FFC72C}
 body.premium-v9 .v9-policy-diagram [data-policy-result] {color:#f5f6f8}
 body.premium-v9 .v9-policy-diagram [data-policy-result][data-state=review] {color:#FFC72C}
 body.premium-v9 .v9-policy-diagram.is-tracing .v9-policy-flow li {animation:v9-policy-trace .6s ease-out both;animation-delay:calc(var(--step) * .5s)}

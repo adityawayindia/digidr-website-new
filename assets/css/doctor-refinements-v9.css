@@ -27,7 +27,7 @@ body.premium-v9 .v9-faq-card:first-child {
   overflow:hidden;transition:border-color .15s,background .15s;
 }
 body.premium-v9 .v9-faq-card:hover { border-color:#657080; }
-body.premium-v9 .v9-faq-card[open] { background:#2F4456;border-color:#65675b; }
+body.premium-v9 .v9-faq-card[open] { background:#14161B;border-color:#65675b; }
 body.premium-v9 .v9-faq-card[hidden] { display:none!important; }
 body.premium-v9 .v9-faq-card summary {
   display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:146px;

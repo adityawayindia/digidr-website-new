@@ -71,7 +71,7 @@ body.premium-v11 .v13-carousel-navigation[hidden]{display:none}
 body.premium-v11 .v13-carousel-position{font-size:11px;color:#c5cbd4;letter-spacing:.09em;font-variant-numeric:tabular-nums;white-space:nowrap}
 body.premium-v11 .v13-carousel-arrows{display:flex;gap:9px}
 body.premium-v11 .v13-carousel-arrow{width:44px;height:44px;flex:none;display:grid;place-items:center;padding:0;border:1px solid #ffffff3d;border-radius:50%;background:transparent;color:#f7f7f5;font:inherit;font-size:21px;cursor:pointer;transition:background-color .18s,color .18s,border-color .18s}
-body.premium-v11 .v13-carousel-arrow:hover:not(:disabled){background:#FFC72C;border-color:#FFC72C;color:#263746}
+body.premium-v11 .v13-carousel-arrow:hover:not(:disabled){background:#FFC72C;border-color:#FFC72C;color:#08090C}
 body.premium-v11 .v13-carousel-arrow:disabled{opacity:.3;cursor:default}
 body.premium-v11 .v13-research-carousel :is(a,button,summary):focus-visible{outline:2px solid #FFC72C;outline-offset:4px}
 
@@ -82,7 +82,7 @@ body.premium-v11 .v13-research-carousel :is(a,button,summary):focus-visible{outl
 .v13-study-dialog-kicker{color:#FFC72C;text-transform:uppercase;font-size:10px;line-height:1.5;letter-spacing:.075em;margin:0 0 16px;padding-right:50px}
 .v13-study-dialog-title{font-family:var(--font-display,'Inter',sans-serif);font-size:29px;font-weight:550;line-height:1.2;letter-spacing:-.035em;margin:0;padding-right:16px}
 .v13-study-dialog-close{position:absolute;right:20px;top:18px;width:44px;height:44px;display:grid;place-items:center;border:1px solid #ffffff38;border-radius:50%;background:transparent;color:#f7f7f5;cursor:pointer;font-size:25px;line-height:1}
-.v13-study-dialog-close:hover{background:#FFC72C;color:#263746;border-color:#FFC72C}
+.v13-study-dialog-close:hover{background:#FFC72C;color:#08090C;border-color:#FFC72C}
 .v13-study-dialog-body{padding:26px 32px 30px;font-size:14px;line-height:1.8;color:#bac2ce}
 .v13-study-dialog-body dl{margin:0 0 25px;display:grid;grid-template-columns:90px minmax(0,1fr);gap:15px 23px}
 .v13-study-dialog-body dt{font-weight:550;color:#f0f2f5}

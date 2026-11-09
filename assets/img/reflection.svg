@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="780" height="500" viewBox="0 0 780 500">
-<rect width="780" height="500" fill="#263746"/>
+<rect width="780" height="500" fill="#08090C"/>
 
 <defs>
   <filter id="blur"><feGaussianBlur stdDeviation="32"/></filter>
