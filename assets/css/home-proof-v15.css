@@ -97,3 +97,26 @@ body.premium-v11 .v15-review-banner a{color:#111218;text-decoration:underline;fo
   body.premium-v11 .v15-review-banner{justify-content:flex-start;gap:6px 15px;padding:12px 18px}
 }
 @media(prefers-reduced-motion:reduce){body.premium-v11 .v15-story{animation:none!important;transition:none!important}}
+
+/* Compact doctor stories */
+body.premium-v11 .v15-stories{padding:60px 0 44px}
+body.premium-v11 .v15-stories .v15-kicker{margin-bottom:14px}
+body.premium-v11 .v15-stories-heading{margin-bottom:24px}
+body.premium-v11 .v15-stories h2{font-size:clamp(32px,3.8vw,48px)}
+body.premium-v11 .v15-story{grid-template-columns:88px minmax(0,1fr);gap:28px;padding:30px 36px;min-height:0}
+body.premium-v11 .v15-story-portrait{width:88px;height:88px;padding:10px;margin-top:2px}
+body.premium-v11 .v15-story-portrait img{width:66px;height:66px}
+body.premium-v11 .v15-story-theme{margin-bottom:10px}
+body.premium-v11 .v15-story h3{font-size:clamp(22px,2.2vw,30px);margin-bottom:12px}
+body.premium-v11 .v15-story blockquote{font-size:clamp(16px,1.3vw,18px);line-height:1.6}
+body.premium-v11 .v15-story-person{margin-top:18px;padding-top:14px;gap:3px}
+body.premium-v11 .v15-story-controls{margin-top:12px}
+body.premium-v11 .v15-story-arrows button{width:42px;height:42px;font-size:18px}
+@media(max-width:700px){
+  body.premium-v11 .v15-stories{padding:44px 0 32px}
+  body.premium-v11 .v15-story{display:block;padding:22px 20px}
+  body.premium-v11 .v15-story-portrait{width:72px;height:72px;margin:0 0 14px}
+  body.premium-v11 .v15-story-portrait img{width:54px;height:54px}
+  body.premium-v11 .v15-story h3{font-size:22px}
+  body.premium-v11 .v15-story blockquote{font-size:16px}
+}

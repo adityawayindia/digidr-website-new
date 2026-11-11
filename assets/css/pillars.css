@@ -1,0 +1,12 @@
+/* Infrastructure pillars section */
+section.v11-pillars{background:#08090c;color:#f6f5ef;padding:96px 0}
+section.v11-pillars .v11-wrap{display:flex;flex-direction:column}
+section.v11-pillars h2{margin:28px 0 0;font-size:clamp(36px,4.4vw,60px);line-height:1.05;letter-spacing:-.05em;font-weight:530;max-width:none}
+section.v11-pillars .v11-problem-lede{margin:22px 0 0;max-width:640px;font-size:18px;line-height:1.5;color:#f6f5efcc}
+section.v11-pillars .v11-pillar-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:56px;align-items:stretch}
+section.v11-pillars .v11-pillar-grid .v11-proof{display:flex;flex-direction:column;gap:0;padding:28px 26px 30px;min-height:290px;background:#101115;border:1px solid #ffffff14;border-radius:10px}
+section.v11-pillars .v11-pillar-grid .v11-proof strong{display:block;font-size:44px;line-height:1;margin:0 0 36px;color:#FFC72C}
+section.v11-pillars .v11-pillar-grid .v11-proof h3{margin:0 0 14px;font-size:20px;line-height:1.25;letter-spacing:-.02em;min-height:2.5em}
+section.v11-pillars .v11-pillar-grid .v11-proof p{margin:0;font-size:15.5px;line-height:1.55;color:#f6f5efb3}
+@media(max-width:1100px){section.v11-pillars .v11-pillar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}section.v11-pillars .v11-pillar-grid .v11-proof{min-height:0}}
+@media(max-width:640px){section.v11-pillars{padding:64px 0}section.v11-pillars .v11-pillar-grid{grid-template-columns:1fr;margin-top:36px}section.v11-pillars .v11-pillar-grid .v11-proof strong{margin-bottom:22px}section.v11-pillars .v11-pillar-grid .v11-proof h3{min-height:0}}

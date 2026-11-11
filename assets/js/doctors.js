@@ -17,7 +17,7 @@
 
     function updateSelection() {
       if (!selection || !selectedPlan) return;
-      const term = selectedPlan === 'Lite' ? 'free plan' : activeTerm === '12' ? '12 month quote' : '6 month term';
+      const term = selectedPlan === 'Lite' ? 'free plan' : activeTerm === '12' ? '12 month term' : '6 month term';
       selection.textContent = `Your interest: ${selectedPlan} · ${term}. Share this preference with DigiDr during onboarding.`;
       selection.hidden = false;
     }
@@ -31,19 +31,43 @@
         button.classList.toggle('is-active', active);
         button.setAttribute('aria-pressed', String(active));
       });
-      cards.forEach(card => {
+      movePill();
+      const applyPrices = () => cards.forEach(card => {
         if (card.dataset.plan === 'lite') return;
         const annual = term === '12';
-        card.querySelector('[data-plan-price]').textContent = annual ? 'Annual quote' : `₹${formatINR(card.dataset.intro)}`;
-        card.querySelector('[data-plan-unit]').textContent = annual ? '12 month plan · same features' : '/ month equivalent';
-        card.querySelector('[data-plan-billing]').textContent = annual ? 'Confirm the complete annual amount with DigiDr.' : `₹${formatINR(card.dataset.total)} billed for six months`;
-        card.querySelector('[data-plan-standard]').textContent = annual ? 'Ask for the introductory period and subsequent pricing in writing.' : `Published subsequent six month rate: ₹${formatINR(card.dataset.standard)}/month.`;
-        card.querySelector('[data-select-plan]').textContent = annual ? 'Request annual quote' : card.dataset.cta;
+        card.querySelector('[data-plan-price]').textContent = annual ? `₹${formatINR(card.dataset.annualPrice)}` : `₹${formatINR(card.dataset.intro)}`;
+        card.querySelector('[data-plan-unit]').textContent = annual ? `/ month · was ₹${formatINR(card.dataset.annualWas)}/mo · Save 50%` : '/ month equivalent';
+        card.querySelector('[data-plan-billing]').textContent = annual ? `Billed ₹${formatINR(card.dataset.annualTotal)} every 12 months` : `₹${formatINR(card.dataset.total)} billed for six months`;
+        card.querySelector('[data-plan-standard]').textContent = annual ? `₹${formatINR(card.dataset.annualStandard)}/mo standard rate after 6 months.` : `Published subsequent six month rate: ₹${formatINR(card.dataset.standard)}/month.`;
+        card.querySelector('[data-select-plan]').textContent = card.dataset.cta;
       });
-      if (termNote) termNote.textContent = term === '12' ? annualNote : sixMonthNote;
+      const animated = [...cards.filter(c => c.dataset.plan !== 'lite'), termNote].filter(Boolean);
+      const applyAll = () => { applyPrices(); if (termNote) termNote.textContent = term === '12' ? annualNote : sixMonthNote; };
+      if (prefersReducedMotion() || !page.dataset.termReady) { applyAll(); page.dataset.termReady = '1'; }
+      else {
+        animated.forEach(el => el.classList.add('is-term-out'));
+        window.setTimeout(() => {
+          applyAll();
+          animated.forEach(el => { el.classList.remove('is-term-out'); el.classList.add('is-term-in'); });
+          window.setTimeout(() => animated.forEach(el => el.classList.remove('is-term-in')), 320);
+        }, 180);
+      }
       updateSelection();
     }
 
+    const toggle = page.querySelector('.doctor-billing-toggle');
+    function movePill() {
+      const active = termButtons.find(b => b.classList.contains('is-active'));
+      if (!toggle || !active) return;
+      toggle.style.setProperty('--pill-x', active.offsetLeft + 'px');
+      toggle.style.setProperty('--pill-y', active.offsetTop + 'px');
+      toggle.style.setProperty('--pill-w', active.offsetWidth + 'px');
+      toggle.style.setProperty('--pill-h', active.offsetHeight + 'px');
+      toggle.classList.add('has-pill');
+    }
+    movePill();
+    window.addEventListener('resize', movePill);
+    if (document.fonts) document.fonts.ready.then(movePill);
     termButtons.forEach(button => button.addEventListener('click', () => chooseTerm(button.dataset.billingTerm)));
     page.querySelectorAll('[data-select-plan]').forEach(button => button.addEventListener('click', () => {
       selectedPlan = button.dataset.selectPlan;

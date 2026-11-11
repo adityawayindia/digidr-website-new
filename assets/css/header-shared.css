@@ -1,0 +1,8 @@
+/* Site-wide header: outlined Sign in button (previously only loaded on the homepage) */
+body.premium-v9 .nav-actions>.nav-signin{
+  padding:0 20px;min-height:46px;font-size:15px;font-weight:650;color:#fff;
+  border:1.5px solid #fff;border-radius:999px;background:transparent;
+  transition:background .2s,color .2s,border-color .2s;
+}
+body.premium-v9 .nav-actions>.nav-signin:hover,
+body.premium-v9 .nav-actions>.nav-signin:focus-visible{background:#fff;color:#08090C}

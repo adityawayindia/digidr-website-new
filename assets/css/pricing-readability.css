@@ -1,0 +1,27 @@
+/* Larger plan card text for readability */
+body .doctor-plan .doctor-plan-tagline{font-size:16px}
+body .doctor-plan .doctor-plan-billing{font-size:14px}
+body .doctor-plan .doctor-plan-standard{font-size:13px}
+body .doctor-plan li{font-size:15px;padding-left:22px}
+body .doctor-plan li::before{font-size:12px}
+body .doctor-plan .doctor-button{font-size:16px}
+body .doctor-plan .doctor-plan-label{font-size:12px}
+body .doctor-billing-toggle button{font-size:16px}
+body .doctor-billing-toggle button span{font-size:14px}
+body .doctor-pricing-explainer{font-size:15px;line-height:1.6}
+/* Term toggle sliding pill + price transition */
+body .doctor-billing-toggle{position:relative;isolation:isolate}
+body .doctor-billing-toggle.has-pill::before{content:"";position:absolute;z-index:-1;left:0;top:0;width:var(--pill-w);height:var(--pill-h);transform:translate(var(--pill-x),var(--pill-y));background:#FFC72C;border-radius:8px;transition:transform .35s cubic-bezier(.65,0,.35,1),width .35s cubic-bezier(.65,0,.35,1)}
+body .doctor-billing-toggle.has-pill button,body .doctor-billing-toggle.has-pill button.is-active{background:transparent;transition:color .3s ease}
+body .doctor-plan [data-plan-price],body .doctor-plan [data-plan-unit],body .doctor-plan [data-plan-billing],body .doctor-plan [data-plan-standard],body .doctor-pricing-explainer{transition:opacity .18s ease,transform .18s ease}
+body .doctor-plan.is-term-out [data-plan-price],body .doctor-plan.is-term-out [data-plan-unit],body .doctor-plan.is-term-out [data-plan-billing],body .doctor-plan.is-term-out [data-plan-standard],body .doctor-pricing-explainer.is-term-out{opacity:0;transform:translateY(-8px)}
+body .doctor-plan.is-term-in [data-plan-price]{animation:termIn .32s cubic-bezier(.2,.8,.2,1)}
+body .doctor-plan.is-term-in{animation:termCard .32s ease}
+@keyframes termIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes termCard{50%{transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){body .doctor-billing-toggle.has-pill::before{transition:none}}
+/* Pricing page heading, matched to the other page headings */
+body .doctor-pricing-section{padding-top:clamp(56px,7vw,96px)}
+body .doctor-pricing-section h1.pricing-title{font-size:clamp(44px,5.2vw,76px);font-weight:510;letter-spacing:-.065em;line-height:1.02;margin:18px 0 0}
+body .doctor-pricing-section h1.pricing-title em{font-style:normal;color:#FFC72C;text-decoration:none}
+body .doctor-pricing-section .doctor-section-heading>p{font-size:18px;line-height:1.6;max-width:520px}

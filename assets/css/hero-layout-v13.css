@@ -109,3 +109,7 @@
   .premium-v11 .v13-hero .v8-motion-buttons button{font-size:11px;padding-inline:7px;min-width:44px}
 }
 @media(prefers-reduced-motion:reduce){.premium-v11 .v13-hero-button{transition:none}}
+
+/* Looser hero heading tracking */
+.premium-v11 .v13-hero h1{letter-spacing:-.025em;word-spacing:.04em}
+@media(max-width:700px){.premium-v11 .v13-hero h1{letter-spacing:-.02em}}
